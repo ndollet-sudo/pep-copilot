@@ -1,0 +1,52 @@
+{"qid": "r02", "question": "How many spaces per indentation level does the official style guide prescribe?", "gold_docs": ["pep-0008"], "evidence": "4 spaces", "tag": "fact"}
+{"qid": "r03", "question": "Which quoting convention should docstrings use?", "gold_docs": ["pep-0257"], "evidence": "\"\"\"triple double quotes\"\"\"", "tag": "fact"}
+{"qid": "r05", "question": "Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?", "gold_docs": ["pep-0622"], "evidence": "pattern matching", "tag": "trap-superseded"}
+{"qid": "r06", "question": "In the match statement specification, how is the wildcard pattern written?", "gold_docs": ["pep-0634"], "evidence": "wildcard", "tag": "fact"}
+{"qid": "r08", "question": "What does the start_response callable do in the web server gateway interface?", "gold_docs": ["pep-3333"], "evidence": "start_response", "tag": "identifier"}
+{"qid": "r09", "question": "How many members sit on the Python Steering Council?", "gold_docs": ["pep-8016"], "evidence": "five", "tag": "fact"}
+{"qid": "r11", "question": "What symbol is placed before a function definition to apply a decorator?", "gold_docs": ["pep-0318"], "evidence": "@", "tag": "fact"}
+{"qid": "r12", "question": "Which proposal introduced the bool type with the constants True and False?", "gold_docs": ["pep-0285"], "evidence": "bool", "tag": "fact"}
+{"qid": "r14", "question": "What new method for advanced string formatting replaces the % operator?", "gold_docs": ["pep-3101"], "evidence": "format", "tag": "fact"}
+{"qid": "r15", "question": "How does a class register as a virtual subclass of an abstract base class?", "gold_docs": ["pep-3119"], "evidence": "register", "tag": "fact"}
+{"qid": "r17", "question": "Which keywords were introduced to define native coroutines?", "gold_docs": ["pep-0492"], "evidence": "async def", "tag": "identifier"}
+{"qid": "r18", "question": "Which decorator generates __init__ and __repr__ automatically for classes holding data?", "gold_docs": ["pep-0557"], "evidence": "@dataclass", "tag": "identifier"}
+{"qid": "r20", "question": "Can I write list[int] instead of typing.List[int] in annotations?", "gold_docs": ["pep-0585"], "evidence": "list\\[int\\]", "tag": "identifier"}
+{"qid": "r21", "question": "What syntax allows writing a union of two types as X | Y?", "gold_docs": ["pep-0604"], "evidence": "X \\| Y", "tag": "identifier"}
+{"qid": "r23", "question": "What construct supports generics parameterised by an arbitrary number of types, such as array shapes?", "gold_docs": ["pep-0646"], "evidence": "TypeVarTuple", "tag": "paraphrase"}
+{"qid": "r24", "question": "How can a method be annotated as returning an instance of its own class?", "gold_docs": ["pep-0673"], "evidence": "Self", "tag": "fact"}
+{"qid": "r26", "question": "What is static duck typing and how are protocol classes declared?", "gold_docs": ["pep-0544"], "evidence": "Protocol", "tag": "paraphrase"}
+{"qid": "r27", "question": "How do you give type hints to a dictionary with a fixed set of string keys?", "gold_docs": ["pep-0589"], "evidence": "TypedDict", "tag": "fact"}
+{"qid": "r29", "question": "How can context-specific metadata be attached to a type hint?", "gold_docs": ["pep-0593"], "evidence": "Annotated", "tag": "identifier"}
+{"qid": "r30", "question": "How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?", "gold_docs": ["pep-0586"], "evidence": "Literal", "tag": "fact"}
+{"qid": "r32", "question": "What hook mechanism lets security tools observe actions taken by the Python runtime?", "gold_docs": ["pep-0578"], "evidence": "audit", "tag": "paraphrase"}
+{"qid": "r33", "question": "Which operators were added to merge two dictionaries?", "gold_docs": ["pep-0584"], "evidence": "\\|=", "tag": "fact"}
+{"qid": "r35", "question": "How can zip be made to raise an error when its iterables have different lengths?", "gold_docs": ["pep-0618"], "evidence": "strict", "tag": "fact"}
+{"qid": "r36", "question": "Why and when was the distutils package deprecated and removed?", "gold_docs": ["pep-0632"], "evidence": "distutils", "tag": "fact"}
+{"qid": "r38", "question": "How can extra information be added to an exception after it has been caught?", "gold_docs": ["pep-0678"], "evidence": "add_note", "tag": "identifier"}
+{"qid": "r39", "question": "Which standard library module parses TOML files?", "gold_docs": ["pep-0680"], "evidence": "tomllib", "tag": "identifier"}
+{"qid": "r41", "question": "Who is the release manager of Python 3.10?", "gold_docs": ["pep-0619"], "evidence": "Pablo Galindo Salgado", "tag": "fact"}
+{"qid": "r42", "question": "How often is a new feature release of Python published under the current release cycle?", "gold_docs": ["pep-0602"], "evidence": "12 months|annual", "tag": "fact"}
+{"qid": "r44", "question": "Which module provides enumerations in the standard library?", "gold_docs": ["pep-0435"], "evidence": "enum", "tag": "fact"}
+{"qid": "r45", "question": "Which operator was dedicated to matrix multiplication?", "gold_docs": ["pep-0465"], "evidence": "@", "tag": "fact"}
+{"qid": "r47", "question": "Can underscores be used to group digits in numeric literals like 1_000_000?", "gold_docs": ["pep-0515"], "evidence": "1_000", "tag": "identifier"}
+{"qid": "r48", "question": "Which protocol method lets an object represent a file system path?", "gold_docs": ["pep-0519"], "evidence": "__fspath__", "tag": "identifier"}
+{"qid": "r50", "question": "How can a module define a fallback for attributes that are not found?", "gold_docs": ["pep-0562"], "evidence": "__getattr__", "tag": "identifier"}
+{"qid": "r51", "question": "Which functions return time as an integer number of nanoseconds?", "gold_docs": ["pep-0564"], "evidence": "time_ns", "tag": "identifier"}
+{"qid": "r53", "question": "How can a delegating generator yield all values of a subgenerator?", "gold_docs": ["pep-0380"], "evidence": "yield from", "tag": "identifier"}
+{"qid": "r54", "question": "How do instance dictionaries save memory by sharing their keys?", "gold_docs": ["pep-0412"], "evidence": "key-sharing|shared keys|split", "tag": "paraphrase"}
+{"qid": "r56", "question": "Which file declares the build-system requirements of a project?", "gold_docs": ["pep-0518"], "evidence": "pyproject\\.toml", "tag": "identifier"}
+{"qid": "r57", "question": "Which TOML table stores a project's name, version and dependencies?", "gold_docs": ["pep-0621"], "evidence": "\\[project\\]", "tag": "identifier"}
+{"qid": "r59", "question": "Which module bootstraps pip into a Python installation?", "gold_docs": ["pep-0453"], "evidence": "ensurepip", "tag": "identifier"}
+{"qid": "r60", "question": "How can a package be split across multiple directories without an __init__.py file?", "gold_docs": ["pep-0420"], "evidence": "namespace package", "tag": "paraphrase"}
+{"qid": "r62", "question": "When did print stop being a statement and become a function?", "gold_docs": ["pep-3105"], "evidence": "print", "tag": "fact"}
+{"qid": "r63", "question": "How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?", "gold_docs": ["pep-3132"], "evidence": "\\*rest", "tag": "identifier"}
+{"qid": "r65", "question": "What hierarchy of abstract base classes is defined for numbers?", "gold_docs": ["pep-3141"], "evidence": "Integral", "tag": "fact"}
+{"qid": "r66", "question": "What is the purpose of a PEP and who is responsible for building consensus?", "gold_docs": ["pep-0001"], "evidence": "build(ing)? consensus", "tag": "fact"}
+{"qid": "r68", "question": "How can each subinterpreter get its own GIL?", "gold_docs": ["pep-0684"], "evidence": "per-interpreter", "tag": "fact"}
+{"qid": "r69", "question": "How does the specializing adaptive interpreter speed up bytecode execution?", "gold_docs": ["pep-0659"], "evidence": "speciali[sz]", "tag": "fact"}
+{"qid": "r71", "question": "What is the new statement for declaring type aliases with type parameter syntax?", "gold_docs": ["pep-0695"], "evidence": "type ", "tag": "fact"}
+{"qid": "r72", "question": "Which module provides basic statistical functions like mean and median?", "gold_docs": ["pep-0450"], "evidence": "statistics", "tag": "fact"}
+{"qid": "r74", "question": "How does the flexible string representation choose between 1, 2 or 4 bytes per character?", "gold_docs": ["pep-0393"], "evidence": "Latin-1|UCS-2|UCS-4|1, 2, or 4", "tag": "paraphrase"}
+{"qid": "r75", "question": "Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?", "gold_docs": ["pep-0008"], "evidence": "79 characters", "tag": "fr"}
+{"qid": "r77", "question": "Quel module de la bibliothèque standard permet de lire des fichiers TOML ?", "gold_docs": ["pep-0680"], "evidence": "tomllib", "tag": "fr"}
+{"qid": "r78", "question": "Comment ajouter une note à une exception déjà levée ?", "gold_docs": ["pep-0678"], "evidence": "add_note", "tag": "fr"}

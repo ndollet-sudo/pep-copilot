@@ -1,0 +1,27 @@
+{"qid": "r01", "question": "What maximum line length does the Python style guide recommend for code?", "gold_docs": ["pep-0008"], "evidence": "79 characters", "tag": "fact"}
+{"qid": "r04", "question": "What new operator lets you bind a variable inside an expression, nicknamed the walrus?", "gold_docs": ["pep-0572"], "evidence": "walrus", "tag": "paraphrase"}
+{"qid": "r07", "question": "How can CPython be built without the global interpreter lock?", "gold_docs": ["pep-0703"], "evidence": "disable-gil", "tag": "identifier"}
+{"qid": "r10", "question": "Which methods must an object implement to be used as a context manager with the with statement?", "gold_docs": ["pep-0343"], "evidence": "__exit__", "tag": "identifier"}
+{"qid": "r13", "question": "How do you declare the character encoding of a Python source file?", "gold_docs": ["pep-0263"], "evidence": "coding[:=]", "tag": "identifier"}
+{"qid": "r16", "question": "How can super() be called without passing the class and instance explicitly?", "gold_docs": ["pep-3135"], "evidence": "super\\(\\)", "tag": "fact"}
+{"qid": "r19", "question": "How do you enable postponed evaluation of annotations with a future import?", "gold_docs": ["pep-0563"], "evidence": "from __future__ import annotations", "tag": "identifier"}
+{"qid": "r22", "question": "How do you annotate a decorator that preserves the parameters of the wrapped callable?", "gold_docs": ["pep-0612"], "evidence": "ParamSpec", "tag": "identifier"}
+{"qid": "r25", "question": "Which decorator tells a type checker that a method is meant to override a base class method?", "gold_docs": ["pep-0698"], "evidence": "@override", "tag": "identifier"}
+{"qid": "r28", "question": "How do you mark a name as not to be reassigned or overridden for type checkers?", "gold_docs": ["pep-0591"], "evidence": "Final", "tag": "fact"}
+{"qid": "r31", "question": "Which marker in a function signature makes the preceding parameters positional-only?", "gold_docs": ["pep-0570"], "evidence": "/", "tag": "fact"}
+{"qid": "r34", "question": "Which string methods remove a prefix or a suffix?", "gold_docs": ["pep-0616"], "evidence": "removeprefix", "tag": "identifier"}
+{"qid": "r37", "question": "What syntax handles several unrelated exceptions raised together?", "gold_docs": ["pep-0654"], "evidence": "except\\*", "tag": "identifier"}
+{"qid": "r40", "question": "Which old and unmaintained standard library modules were scheduled for removal?", "gold_docs": ["pep-0594"], "evidence": "remov", "tag": "paraphrase"}
+{"qid": "r43", "question": "How long must a feature be deprecated before it can be removed?", "gold_docs": ["pep-0387"], "evidence": "two releases|at least two", "tag": "fact"}
+{"qid": "r46", "question": "Which function returns directory entries with file attributes to speed up os.walk?", "gold_docs": ["pep-0471"], "evidence": "scandir", "tag": "identifier"}
+{"qid": "r49", "question": "Which built-in function drops into the debugger?", "gold_docs": ["pep-0553"], "evidence": "breakpoint\\(\\)", "tag": "identifier"}
+{"qid": "r52", "question": "How can asynchronous code keep context-local state, similar to thread-local storage?", "gold_docs": ["pep-0567"], "evidence": "ContextVar", "tag": "paraphrase"}
+{"qid": "r55", "question": "What is the file format of a built Python distribution archive named .whl?", "gold_docs": ["pep-0427"], "evidence": "\\.whl", "tag": "identifier"}
+{"qid": "r58", "question": "What marker file tells pip that a Python environment is managed by the operating system package manager?", "gold_docs": ["pep-0668"], "evidence": "EXTERNALLY-MANAGED", "tag": "identifier"}
+{"qid": "r61", "question": "Which keyword allows a nested function to rebind a variable of an enclosing function?", "gold_docs": ["pep-3104"], "evidence": "nonlocal", "tag": "identifier"}
+{"qid": "r64", "question": "How does Python attach the original exception when another is raised during handling?", "gold_docs": ["pep-3134"], "evidence": "__cause__|__context__", "tag": "identifier"}
+{"qid": "r67", "question": "How are objects made immortal so that their reference count never changes?", "gold_docs": ["pep-0683"], "evidence": "immortal", "tag": "fact"}
+{"qid": "r70", "question": "Are comprehensions still executed as separate nested functions in Python 3.12?", "gold_docs": ["pep-0709"], "evidence": "inlin", "tag": "fact"}
+{"qid": "r73", "question": "Which module should be used to generate secure random tokens for passwords?", "gold_docs": ["pep-0506"], "evidence": "secrets", "tag": "fact"}
+{"qid": "r76", "question": "Comment rendre le GIL optionnel lors de la compilation de CPython ?", "gold_docs": ["pep-0703"], "evidence": "disable-gil", "tag": "fr"}
+{"qid": "r79", "question": "Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?", "gold_docs": ["pep-0572"], "evidence": ":=", "tag": "fr"}
