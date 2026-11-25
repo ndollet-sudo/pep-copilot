@@ -15,7 +15,9 @@ Failure modes handled (each one is counted in the run result):
                                       rejected once ("verify or remove")
   F7 max_iterations / token budget -> graceful fallback to the plain RAG pipeline
   F8 LLM provider failure          -> fallback to RAG; if that fails too, explicit error
-  F9 soft termination (plain text) -> accepted, flagged as 'text'
+  F9 soft termination (plain text) -> accepted, flagged as 'text';
+                                      an EMPTY reply (no text, no tool call) is not an
+                                      answer: the model is nudged once to continue
 """
 from __future__ import annotations
 
@@ -89,7 +91,8 @@ class Agent:
         messages: list[dict] = [{"role": "system", "content": SYSTEM_PROMPT},
                                 {"role": "user", "content": question}]
         failures = {k: 0 for k in ("unknown_tool", "invalid_args", "tool_error", "empty",
-                                   "repeated_call", "ungrounded_answer", "budget", "llm_error")}
+                                   "repeated_call", "ungrounded_answer", "budget", "llm_error",
+                                   "empty_reply")}
         trace: list[dict] = []
         seen_calls: dict[tuple[str, str], int] = {}
         observed_peps: set[int] = set()
@@ -121,7 +124,14 @@ class Agent:
             messages.append(_assistant_dict(msg))
             calls = msg.tool_calls or []
             if not calls:                                                  # F9 soft stop
-                return finish(msg.content, sorted(observed_peps), "text", iteration)
+                if (msg.content or "").strip() or failures["empty_reply"]:
+                    return finish(msg.content, sorted(observed_peps), "text", iteration)
+                failures["empty_reply"] += 1          # empty turn: nudge once, keep going
+                trace.append({"iteration": iteration, "event": "empty_reply_nudge"})
+                messages.append({"role": "user", "content":
+                                 "You stopped without an answer. Continue: call the next "
+                                 "tool you need (e.g. calculator), then final_answer."})
+                continue
 
             for call in calls:
                 name, args_json = call.function.name, call.function.arguments or "{}"

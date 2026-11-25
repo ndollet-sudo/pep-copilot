@@ -76,6 +76,17 @@ def test_soft_termination_plain_text(registry):
     assert r.terminated_by == "text" and r.answer == "Plain answer."
 
 
+def test_empty_reply_is_nudged_not_accepted(registry):
+    # regression for held-out question a18: get_pep x2 then an empty turn
+    llm = FakeLLM([response([tool_call("get_pep", {"number": 3333})]),
+                   response(content=""),
+                   response([tool_call("calculator", {"expression": "2023 - 2010"})]),
+                   response([tool_call("final_answer", {"answer": "13 years", "sources": [3333]})])])
+    r = Agent(llm, registry).run("q")
+    assert r.failures["empty_reply"] == 1
+    assert r.terminated_by == "final_answer" and r.answer == "13 years"
+
+
 def test_langgraph_port_same_behaviour(registry):
     from pepcopilot.agent.graph import run_graph
     llm = FakeLLM([response([tool_call("search_peps", {"query": "walrus"})]),
