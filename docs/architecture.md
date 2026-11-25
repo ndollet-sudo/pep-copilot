@@ -10,12 +10,12 @@ flowchart LR
     SRC[(python/peps<br/>748 .rst files)] -->|build_corpus.py<br/>parse header · clean RST<br/>select 500| CORPUS[(peps.jsonl<br/>500 docs + metadata)]
     CORPUS -->|chunking.py<br/>fixed · fixed_header · section| CHUNKS[(~8.5k chunks<br/>+ PEP metadata)]
     CHUNKS -->|tokenize| BM25[(BM25 index<br/>k1=1.5 b=0.75)]
-    CHUNKS -->|embeddings.py<br/>text-embedding-3-small<br/>or local LSA 256d| VEC[(L2-normalised<br/>vectors · .npy cache)]
+    CHUNKS -->|embeddings.py<br/>mistral-embed 1024d<br/>or local LSA 256d| VEC[(L2-normalised<br/>vectors · .npy cache)]
     VEC --> FAISS[(FAISS IndexFlatIP<br/>exact cosine)]
   end
 
   subgraph ONLINE["② Online — one question"]
-    Q([User question]) --> AGENT{{Agent loop<br/>gpt-4o-mini + tools<br/>max 8 iterations · 60k-token budget}}
+    Q([User question]) --> AGENT{{Agent loop<br/>Mistral Small 4 + tools<br/>max 8 iterations · 60k-token budget}}
     AGENT -->|tool call| VALID[validate_args<br/>registry dispatch]
     VALID -->|search_peps| HYB
     VALID -->|get_pep / find_peps| META[(metadata<br/>status · version · authors)]
@@ -57,7 +57,7 @@ flowchart LR
 |---|---|---|
 | Data | `scripts/build_corpus.py`, `corpus.py` | Clone python/peps, parse RFC-822 headers, clean RST, deterministic 500-doc selection |
 | Chunking | `chunking.py` | 3 strategies (fixed 200/50, fixed + contextual header, section-aware) |
-| Embedding | `embeddings.py` | `text-embedding-3-small` (prod, cached on disk) / TF-IDF+SVD (offline baseline) |
+| Embedding | `embeddings.py` | `mistral-embed` via OpenRouter (prod, cached on disk; `text-embedding-3-small` with an OpenAI key) / TF-IDF+SVD (offline baseline) |
 | Retrieval | `retrieval.py`, `rerank.py` | BM25 ‖ FAISS → RRF → LLM rerank (falls back to RRF order on failure) |
 | Generation | `generate.py`, `pipeline.py` | Cited answers `[n]`, explicit "not found", Rejected/Superseded warning |
 | Agent | `agent/tools.py`, `agent/loop.py`, `agent/graph.py` | 5 tools, schema validation, failure handling F1–F9, LangGraph port |
@@ -77,6 +77,6 @@ flowchart LR
 | F6 | Ungrounded answer | `sources` ∉ PEPs observed | final_answer rejected once |
 | F7 | Max iterations / token budget | counters | Fallback to RAG pipeline |
 | F8 | LLM outage | `LLMError` after 5 retries (2,4,8,16 s) | Fallback to RAG, else explicit error |
-| F9 | Soft stop | answer without `final_answer` | Accepted, flagged `text` |
+| F9 | Soft stop | answer without `final_answer` | Text accepted (flagged `text`); an **empty** reply is nudged once (bug found on held-out q. a18) |
 
 Every row is covered by a deterministic test in `tests/test_agent_failures.py` (scripted fake LLM).
