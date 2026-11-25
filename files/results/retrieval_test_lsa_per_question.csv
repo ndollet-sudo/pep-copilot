@@ -1,0 +1,469 @@
+strategy,variant,qid,tag,question,top1,R,P,MRR,nDCG,Hit,docHit,docMRR
+fixed,bm25,r02,fact,How many spaces per indentation level does the official style guide prescribe?,pep-0008#c2,0.3333333333333333,0.2,1.0,0.46927872602275644,1.0,1.0,1.0
+fixed,bm25,r03,fact,Which quoting convention should docstrings use?,pep-0257#c0,0.5,0.2,0.3333333333333333,0.3065735963827292,1.0,1.0,1.0
+fixed,bm25,r05,trap-superseded,Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?,pep-0619#c3,0.0,0.0,0.14285714285714285,0.0,0.0,0.0,0.25
+fixed,bm25,r06,fact,"In the match statement specification, how is the wildcard pattern written?",pep-0634#c8,0.16666666666666666,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,bm25,r08,identifier,What does the start_response callable do in the web server gateway interface?,pep-3333#c33,0.07142857142857142,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,bm25,r09,fact,How many members sit on the Python Steering Council?,pep-0732#c4,0.0,0.0,0.0,0.0,0.0,0.0,0.125
+fixed,bm25,r11,fact,What symbol is placed before a function definition to apply a decorator?,pep-0318#c14,0.1111111111111111,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,bm25,r12,fact,Which proposal introduced the bool type with the constants True and False?,pep-0285#c0,0.17647058823529413,0.6,1.0,0.6843515475204855,1.0,1.0,1.0
+fixed,bm25,r14,fact,What new method for advanced string formatting replaces the % operator?,pep-3127#c17,0.030303030303030304,0.2,0.25,0.14606834984270645,1.0,1.0,0.5
+fixed,bm25,r15,fact,How does a class register as a virtual subclass of an abstract base class?,pep-3119#c11,0.4,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+fixed,bm25,r17,identifier,Which keywords were introduced to define native coroutines?,pep-0492#c5,0.08333333333333333,0.4,0.5,0.34519134224686937,1.0,1.0,1.0
+fixed,bm25,r18,identifier,Which decorator generates __init__ and __repr__ automatically for classes holding data?,pep-0557#c25,0.047619047619047616,0.2,0.25,0.14606834984270645,1.0,1.0,1.0
+fixed,bm25,r20,identifier,Can I write list[int] instead of typing.List[int] in annotations?,pep-0604#c1,0.0,0.0,0.05555555555555555,0.0,0.0,1.0,0.5
+fixed,bm25,r21,identifier,What syntax allows writing a union of two types as X | Y?,pep-0604#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed,bm25,r23,paraphrase,"What construct supports generics parameterised by an arbitrary number of types, such as array shapes?",pep-0646#c0,0.0967741935483871,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+fixed,bm25,r24,fact,How can a method be annotated as returning an instance of its own class?,pep-0484#c4,0.0,0.0,0.1,0.0,0.0,0.0,0.125
+fixed,bm25,r26,paraphrase,What is static duck typing and how are protocol classes declared?,pep-0544#c0,0.10638297872340426,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,bm25,r27,fact,How do you give type hints to a dictionary with a fixed set of string keys?,pep-0705#c0,0.08695652173913043,0.4,0.5,0.34519134224686937,1.0,1.0,0.5
+fixed,bm25,r29,identifier,How can context-specific metadata be attached to a type hint?,pep-0643#c3,0.1111111111111111,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+fixed,bm25,r30,fact,How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?,pep-0586#c4,0.16,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed,bm25,r32,paraphrase,What hook mechanism lets security tools observe actions taken by the Python runtime?,pep-0578#c0,0.13043478260869565,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed,bm25,r33,fact,Which operators were added to merge two dictionaries?,pep-0584#c23,0.07692307692307693,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,1.0
+fixed,bm25,r35,fact,How can zip be made to raise an error when its iterables have different lengths?,pep-0618#c3,0.2857142857142857,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+fixed,bm25,r36,fact,Why and when was the distutils package deprecated and removed?,pep-3108#c2,0.3333333333333333,0.6,0.5,0.5296347172140421,1.0,1.0,0.5
+fixed,bm25,r38,identifier,How can extra information be added to an exception after it has been caught?,pep-0678#c0,0.2222222222222222,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,bm25,r39,identifier,Which standard library module parses TOML files?,pep-0680#c5,0.23076923076923078,0.6,1.0,0.6164336326286644,1.0,1.0,1.0
+fixed,bm25,r41,fact,Who is the release manager of Python 3.10?,pep-0619#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed,bm25,r42,fact,How often is a new feature release of Python published under the current release cycle?,pep-0101#c3,0.0,0.0,0.125,0.0,0.0,0.0,0.25
+fixed,bm25,r44,fact,Which module provides enumerations in the standard library?,pep-0435#c15,0.2777777777777778,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,bm25,r45,fact,Which operator was dedicated to matrix multiplication?,pep-0465#c1,0.07317073170731707,0.6,0.5,0.5147714448836774,1.0,1.0,1.0
+fixed,bm25,r47,identifier,Can underscores be used to group digits in numeric literals like 1_000_000?,pep-0515#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed,bm25,r48,identifier,Which protocol method lets an object represent a file system path?,pep-0519#c3,0.14285714285714285,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,bm25,r50,identifier,How can a module define a fallback for attributes that are not found?,pep-0418#c11,0.0,0.0,0.07142857142857142,0.0,0.0,0.0,0.1
+fixed,bm25,r51,identifier,Which functions return time as an integer number of nanoseconds?,pep-0564#c4,0.3,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+fixed,bm25,r53,identifier,How can a delegating generator yield all values of a subgenerator?,pep-0380#c2,0.3076923076923077,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed,bm25,r54,paraphrase,How do instance dictionaries save memory by sharing their keys?,pep-0412#c3,0.8,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed,bm25,r56,identifier,Which file declares the build-system requirements of a project?,pep-0517#c17,0.5,0.2,0.5,0.38685280723454163,1.0,1.0,0.5
+fixed,bm25,r57,identifier,"Which TOML table stores a project's name, version and dependencies?",pep-0621#c21,0.0,0.0,0.1111111111111111,0.0,0.0,1.0,1.0
+fixed,bm25,r59,identifier,Which module bootstraps pip into a Python installation?,pep-0453#c31,0.16666666666666666,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed,bm25,r60,paraphrase,How can a package be split across multiple directories without an __init__.py file?,pep-0420#c3,0.13043478260869565,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+fixed,bm25,r62,fact,When did print stop being a statement and become a function?,pep-3105#c0,0.2,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,bm25,r63,identifier,"How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?",pep-3132#c1,1.0,0.2,0.5,0.6309297535714575,1.0,1.0,1.0
+fixed,bm25,r65,fact,What hierarchy of abstract base classes is defined for numbers?,pep-3141#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,bm25,r66,fact,What is the purpose of a PEP and who is responsible for building consensus?,pep-0001#c0,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+fixed,bm25,r68,fact,How can each subinterpreter get its own GIL?,pep-0788#c14,0.0,0.0,0.1111111111111111,0.0,0.0,1.0,0.5
+fixed,bm25,r69,fact,How does the specializing adaptive interpreter speed up bytecode execution?,pep-0659#c0,0.2857142857142857,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed,bm25,r71,fact,What is the new statement for declaring type aliases with type parameter syntax?,pep-0695#c0,0.09615384615384616,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,bm25,r72,fact,Which module provides basic statistical functions like mean and median?,pep-0450#c0,0.2857142857142857,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed,bm25,r74,paraphrase,"How does the flexible string representation choose between 1, 2 or 4 bytes per character?",pep-0393#c0,0.3333333333333333,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,bm25,r75,fr,Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?,pep-0295#c1,0.0,0.0,0.0,0.0,0.0,0.0,0.2
+fixed,bm25,r77,fr,Quel module de la bibliothèque standard permet de lire des fichiers TOML ?,pep-0545#c6,0.0,0.0,0.0,0.0,0.0,0.0,0.08333333333333333
+fixed,bm25,r78,fr,Comment ajouter une note à une exception déjà levée ?,pep-0646#c33,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,dense,r02,fact,How many spaces per indentation level does the official style guide prescribe?,pep-0008#c2,1.0,0.6,1.0,0.9674679834891693,1.0,1.0,1.0
+fixed,dense,r03,fact,Which quoting convention should docstrings use?,pep-0257#c1,1.0,0.4,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r05,trap-superseded,Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?,pep-0635#c53,0.041666666666666664,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+fixed,dense,r06,fact,"In the match statement specification, how is the wildcard pattern written?",pep-0622#c17,0.0,0.0,0.05555555555555555,0.0,0.0,1.0,0.3333333333333333
+fixed,dense,r08,identifier,What does the start_response callable do in the web server gateway interface?,pep-3333#c33,0.07142857142857142,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,dense,r09,fact,How many members sit on the Python Steering Council?,pep-0729#c9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,dense,r11,fact,What symbol is placed before a function definition to apply a decorator?,pep-0318#c10,0.0,0.0,0.1111111111111111,0.0,0.0,1.0,1.0
+fixed,dense,r12,fact,Which proposal introduced the bool type with the constants True and False?,pep-0285#c0,0.29411764705882354,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r14,fact,What new method for advanced string formatting replaces the % operator?,pep-3101#c0,0.09090909090909091,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+fixed,dense,r15,fact,How does a class register as a virtual subclass of an abstract base class?,pep-3119#c11,0.2,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,dense,r17,identifier,Which keywords were introduced to define native coroutines?,pep-0492#c4,0.125,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+fixed,dense,r18,identifier,Which decorator generates __init__ and __repr__ automatically for classes holding data?,pep-0557#c3,0.19047619047619047,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed,dense,r20,identifier,Can I write list[int] instead of typing.List[int] in annotations?,pep-0604#c1,0.0,0.0,0.1111111111111111,0.0,0.0,0.0,0.25
+fixed,dense,r21,identifier,What syntax allows writing a union of two types as X | Y?,pep-0604#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r23,paraphrase,"What construct supports generics parameterised by an arbitrary number of types, such as array shapes?",pep-0646#c2,0.0967741935483871,0.6,0.3333333333333333,0.4468535299918563,1.0,1.0,1.0
+fixed,dense,r24,fact,How can a method be annotated as returning an instance of its own class?,pep-0367#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,dense,r26,paraphrase,What is static duck typing and how are protocol classes declared?,pep-0544#c30,0.10638297872340426,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r27,fact,How do you give type hints to a dictionary with a fixed set of string keys?,pep-0589#c2,0.043478260869565216,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,dense,r29,identifier,How can context-specific metadata be attached to a type hint?,pep-0593#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,dense,r30,fact,How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?,pep-0586#c8,0.16,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed,dense,r32,paraphrase,What hook mechanism lets security tools observe actions taken by the Python runtime?,pep-0578#c0,0.17391304347826086,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+fixed,dense,r33,fact,Which operators were added to merge two dictionaries?,pep-0225#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,dense,r35,fact,How can zip be made to raise an error when its iterables have different lengths?,pep-0618#c8,0.2857142857142857,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,dense,r36,fact,Why and when was the distutils package deprecated and removed?,pep-3108#c2,0.2222222222222222,0.4,0.3333333333333333,0.30078518014914984,1.0,1.0,0.5
+fixed,dense,r38,identifier,How can extra information be added to an exception after it has been caught?,pep-0678#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,dense,r39,identifier,Which standard library module parses TOML files?,pep-0680#c4,0.15384615384615385,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,1.0
+fixed,dense,r41,fact,Who is the release manager of Python 3.10?,pep-0373#c0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,dense,r42,fact,How often is a new feature release of Python published under the current release cycle?,pep-0602#c8,0.16666666666666666,0.2,0.2,0.13120507751234178,1.0,1.0,1.0
+fixed,dense,r44,fact,Which module provides enumerations in the standard library?,pep-0594#c0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,dense,r45,fact,Which operator was dedicated to matrix multiplication?,pep-0465#c38,0.07317073170731707,0.6,1.0,0.6843515475204855,1.0,1.0,1.0
+fixed,dense,r47,identifier,Can underscores be used to group digits in numeric literals like 1_000_000?,pep-0515#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r48,identifier,Which protocol method lets an object represent a file system path?,pep-0519#c2,0.14285714285714285,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,1.0
+fixed,dense,r50,identifier,How can a module define a fallback for attributes that are not found?,pep-0451#c19,0.2,0.2,0.25,0.14606834984270645,1.0,1.0,0.3333333333333333
+fixed,dense,r51,identifier,Which functions return time as an integer number of nanoseconds?,pep-0564#c4,0.4,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed,dense,r53,identifier,How can a delegating generator yield all values of a subgenerator?,pep-0380#c0,0.3076923076923077,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+fixed,dense,r54,paraphrase,How do instance dictionaries save memory by sharing their keys?,pep-0412#c0,0.8,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+fixed,dense,r56,identifier,Which file declares the build-system requirements of a project?,pep-0517#c6,0.0,0.0,0.125,0.0,0.0,1.0,0.5
+fixed,dense,r57,identifier,"Which TOML table stores a project's name, version and dependencies?",pep-0631#c0,0.0,0.0,0.0,0.0,0.0,1.0,0.3333333333333333
+fixed,dense,r59,identifier,Which module bootstraps pip into a Python installation?,pep-0453#c36,0.20833333333333334,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r60,paraphrase,How can a package be split across multiple directories without an __init__.py file?,pep-0382#c3,0.08695652173913043,0.4,0.5,0.36005461457723403,1.0,1.0,0.5
+fixed,dense,r62,fact,When did print stop being a statement and become a function?,pep-0214#c7,0.2,0.2,0.25,0.14606834984270645,1.0,1.0,0.5
+fixed,dense,r63,identifier,"How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?",pep-3132#c1,1.0,0.2,0.5,0.6309297535714575,1.0,1.0,1.0
+fixed,dense,r65,fact,What hierarchy of abstract base classes is defined for numbers?,pep-3141#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,dense,r66,fact,What is the purpose of a PEP and who is responsible for building consensus?,pep-0001#c0,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+fixed,dense,r68,fact,How can each subinterpreter get its own GIL?,pep-0703#c14,0.0,0.0,0.14285714285714285,0.0,0.0,1.0,0.5
+fixed,dense,r69,fact,How does the specializing adaptive interpreter speed up bytecode execution?,pep-0330#c1,0.14285714285714285,0.4,0.5,0.38356636737133565,1.0,1.0,0.5
+fixed,dense,r71,fact,What is the new statement for declaring type aliases with type parameter syntax?,pep-0695#c10,0.09615384615384616,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r72,fact,Which module provides basic statistical functions like mean and median?,pep-0450#c1,0.2857142857142857,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+fixed,dense,r74,paraphrase,"How does the flexible string representation choose between 1, 2 or 4 bytes per character?",pep-0519#c1,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,0.3333333333333333
+fixed,dense,r75,fr,Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?,pep-0008#c0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+fixed,dense,r77,fr,Quel module de la bibliothèque standard permet de lire des fichiers TOML ?,pep-0680#c4,0.23076923076923078,0.6,0.3333333333333333,0.4468535299918563,1.0,1.0,1.0
+fixed,dense,r78,fr,Comment ajouter une note à une exception déjà levée ?,pep-0342#c10,0.1111111111111111,0.2,0.2,0.13120507751234178,1.0,0.0,0.25
+fixed,hybrid,r02,fact,How many spaces per indentation level does the official style guide prescribe?,pep-0008#c2,0.6666666666666666,0.4,1.0,0.6713860725233041,1.0,1.0,1.0
+fixed,hybrid,r03,fact,Which quoting convention should docstrings use?,pep-0257#c0,1.0,0.4,0.5,0.6934264036172708,1.0,1.0,1.0
+fixed,hybrid,r05,trap-superseded,Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?,pep-0635#c0,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,0.3333333333333333
+fixed,hybrid,r06,fact,"In the match statement specification, how is the wildcard pattern written?",pep-0622#c17,0.16666666666666666,0.2,0.25,0.14606834984270645,1.0,1.0,0.5
+fixed,hybrid,r08,identifier,What does the start_response callable do in the web server gateway interface?,pep-3333#c33,0.07142857142857142,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,hybrid,r09,fact,How many members sit on the Python Steering Council?,pep-0729#c9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,hybrid,r11,fact,What symbol is placed before a function definition to apply a decorator?,pep-0318#c10,0.05555555555555555,0.2,0.2,0.13120507751234178,1.0,1.0,1.0
+fixed,hybrid,r12,fact,Which proposal introduced the bool type with the constants True and False?,pep-0285#c0,0.29411764705882354,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,hybrid,r14,fact,What new method for advanced string formatting replaces the % operator?,pep-3101#c0,0.06060606060606061,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+fixed,hybrid,r15,fact,How does a class register as a virtual subclass of an abstract base class?,pep-3119#c11,0.4,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,hybrid,r17,identifier,Which keywords were introduced to define native coroutines?,pep-0492#c5,0.125,0.6,0.5,0.4912596920895758,1.0,1.0,1.0
+fixed,hybrid,r18,identifier,Which decorator generates __init__ and __repr__ automatically for classes holding data?,pep-0557#c16,0.09523809523809523,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,hybrid,r20,identifier,Can I write list[int] instead of typing.List[int] in annotations?,pep-0604#c1,0.0,0.0,0.08333333333333333,0.0,0.0,1.0,0.5
+fixed,hybrid,r21,identifier,What syntax allows writing a union of two types as X | Y?,pep-0604#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed,hybrid,r23,paraphrase,"What construct supports generics parameterised by an arbitrary number of types, such as array shapes?",pep-0646#c2,0.0967741935483871,0.6,0.5,0.5296347172140421,1.0,1.0,1.0
+fixed,hybrid,r24,fact,How can a method be annotated as returning an instance of its own class?,pep-0484#c4,0.0,0.0,0.058823529411764705,0.0,0.0,0.0,0.08333333333333333
+fixed,hybrid,r26,paraphrase,What is static duck typing and how are protocol classes declared?,pep-0544#c0,0.10638297872340426,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,hybrid,r27,fact,How do you give type hints to a dictionary with a fixed set of string keys?,pep-0589#c2,0.08695652173913043,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,hybrid,r29,identifier,How can context-specific metadata be attached to a type hint?,pep-0593#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,hybrid,r30,fact,How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?,pep-0586#c4,0.16,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed,hybrid,r32,paraphrase,What hook mechanism lets security tools observe actions taken by the Python runtime?,pep-0578#c0,0.13043478260869565,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed,hybrid,r33,fact,Which operators were added to merge two dictionaries?,pep-0225#c3,0.07692307692307693,0.2,0.2,0.13120507751234178,1.0,1.0,0.5
+fixed,hybrid,r35,fact,How can zip be made to raise an error when its iterables have different lengths?,pep-0618#c1,0.42857142857142855,0.6,0.5,0.4912596920895758,1.0,1.0,1.0
+fixed,hybrid,r36,fact,Why and when was the distutils package deprecated and removed?,pep-3108#c2,0.3333333333333333,0.6,0.5,0.5147714448836774,1.0,1.0,0.5
+fixed,hybrid,r38,identifier,How can extra information be added to an exception after it has been caught?,pep-0678#c0,0.2222222222222222,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,hybrid,r39,identifier,Which standard library module parses TOML files?,pep-0680#c4,0.15384615384615385,0.4,0.5,0.38356636737133565,1.0,1.0,1.0
+fixed,hybrid,r41,fact,Who is the release manager of Python 3.10?,pep-0404#c0,0.0,0.0,0.1,0.0,0.0,0.0,0.1
+fixed,hybrid,r42,fact,How often is a new feature release of Python published under the current release cycle?,pep-0101#c3,0.16666666666666666,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.5
+fixed,hybrid,r44,fact,Which module provides enumerations in the standard library?,pep-0408#c0,0.05555555555555555,0.2,0.2,0.13120507751234178,1.0,0.0,0.2
+fixed,hybrid,r45,fact,Which operator was dedicated to matrix multiplication?,pep-0465#c38,0.07317073170731707,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+fixed,hybrid,r47,identifier,Can underscores be used to group digits in numeric literals like 1_000_000?,pep-0515#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed,hybrid,r48,identifier,Which protocol method lets an object represent a file system path?,pep-0519#c3,0.14285714285714285,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,hybrid,r50,identifier,How can a module define a fallback for attributes that are not found?,pep-0252#c14,0.0,0.0,0.1111111111111111,0.0,0.0,0.0,0.14285714285714285
+fixed,hybrid,r51,identifier,Which functions return time as an integer number of nanoseconds?,pep-0564#c4,0.4,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed,hybrid,r53,identifier,How can a delegating generator yield all values of a subgenerator?,pep-0380#c2,0.3076923076923077,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed,hybrid,r54,paraphrase,How do instance dictionaries save memory by sharing their keys?,pep-0412#c3,0.8,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed,hybrid,r56,identifier,Which file declares the build-system requirements of a project?,pep-0517#c6,0.5,0.2,0.3333333333333333,0.3065735963827292,1.0,1.0,0.5
+fixed,hybrid,r57,identifier,"Which TOML table stores a project's name, version and dependencies?",pep-0621#c21,0.0,0.0,0.08333333333333333,0.0,0.0,1.0,1.0
+fixed,hybrid,r59,identifier,Which module bootstraps pip into a Python installation?,pep-0453#c36,0.16666666666666666,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed,hybrid,r60,paraphrase,How can a package be split across multiple directories without an __init__.py file?,pep-0420#c3,0.13043478260869565,0.6,1.0,0.6164336326286644,1.0,1.0,1.0
+fixed,hybrid,r62,fact,When did print stop being a statement and become a function?,pep-0214#c7,0.2,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+fixed,hybrid,r63,identifier,"How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?",pep-3132#c1,1.0,0.2,0.5,0.6309297535714575,1.0,1.0,1.0
+fixed,hybrid,r65,fact,What hierarchy of abstract base classes is defined for numbers?,pep-3141#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,hybrid,r66,fact,What is the purpose of a PEP and who is responsible for building consensus?,pep-0001#c0,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+fixed,hybrid,r68,fact,How can each subinterpreter get its own GIL?,pep-0703#c13,0.0,0.0,0.06666666666666667,0.0,0.0,0.0,0.25
+fixed,hybrid,r69,fact,How does the specializing adaptive interpreter speed up bytecode execution?,pep-0659#c0,0.21428571428571427,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+fixed,hybrid,r71,fact,What is the new statement for declaring type aliases with type parameter syntax?,pep-0695#c10,0.09615384615384616,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,hybrid,r72,fact,Which module provides basic statistical functions like mean and median?,pep-0450#c0,0.2857142857142857,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed,hybrid,r74,paraphrase,"How does the flexible string representation choose between 1, 2 or 4 bytes per character?",pep-0393#c0,0.5,0.6,1.0,0.6164336326286644,1.0,1.0,1.0
+fixed,hybrid,r75,fr,Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?,pep-0295#c1,0.0,0.0,0.0,0.0,0.0,1.0,0.5
+fixed,hybrid,r77,fr,Quel module de la bibliothèque standard permet de lire des fichiers TOML ?,pep-0680#c16,0.0,0.0,0.14285714285714285,0.0,0.0,1.0,1.0
+fixed,hybrid,r78,fr,Comment ajouter une note à une exception déjà levée ?,pep-0646#c33,0.0,0.0,0.1,0.0,0.0,0.0,0.1111111111111111
+fixed_header,bm25,r02,fact,How many spaces per indentation level does the official style guide prescribe?,pep-0008#c2,0.6666666666666666,0.4,1.0,0.7653606369886217,1.0,1.0,1.0
+fixed_header,bm25,r03,fact,Which quoting convention should docstrings use?,pep-0257#c0,0.5,0.2,0.25,0.2640681225725909,1.0,1.0,1.0
+fixed_header,bm25,r05,trap-superseded,Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?,pep-0635#c0,0.041666666666666664,0.2,0.2,0.13120507751234178,1.0,0.0,0.25
+fixed_header,bm25,r06,fact,"In the match statement specification, how is the wildcard pattern written?",pep-0634#c8,0.16666666666666666,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,bm25,r08,identifier,What does the start_response callable do in the web server gateway interface?,pep-3333#c33,0.10714285714285714,0.6,1.0,0.6164336326286644,1.0,1.0,1.0
+fixed_header,bm25,r09,fact,How many members sit on the Python Steering Council?,pep-0732#c4,0.0,0.0,0.0,0.0,0.0,0.0,0.16666666666666666
+fixed_header,bm25,r11,fact,What symbol is placed before a function definition to apply a decorator?,pep-0318#c14,0.1111111111111111,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed_header,bm25,r12,fact,Which proposal introduced the bool type with the constants True and False?,pep-0285#c0,0.17647058823529413,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed_header,bm25,r14,fact,What new method for advanced string formatting replaces the % operator?,pep-3101#c0,0.12121212121212122,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+fixed_header,bm25,r15,fact,How does a class register as a virtual subclass of an abstract base class?,pep-3119#c10,0.6,0.6,1.0,0.6843515475204855,1.0,1.0,1.0
+fixed_header,bm25,r17,identifier,Which keywords were introduced to define native coroutines?,pep-0492#c5,0.08333333333333333,0.4,0.5,0.34519134224686937,1.0,1.0,1.0
+fixed_header,bm25,r18,identifier,Which decorator generates __init__ and __repr__ automatically for classes holding data?,pep-0557#c25,0.09523809523809523,0.4,0.5,0.34519134224686937,1.0,1.0,1.0
+fixed_header,bm25,r20,identifier,Can I write list[int] instead of typing.List[int] in annotations?,pep-0604#c1,0.0,0.0,0.0,0.0,0.0,0.0,0.25
+fixed_header,bm25,r21,identifier,What syntax allows writing a union of two types as X | Y?,pep-0604#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed_header,bm25,r23,paraphrase,"What construct supports generics parameterised by an arbitrary number of types, such as array shapes?",pep-0646#c0,0.0967741935483871,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+fixed_header,bm25,r24,fact,How can a method be annotated as returning an instance of its own class?,pep-0484#c4,0.0,0.0,0.1,0.0,0.0,0.0,0.125
+fixed_header,bm25,r26,paraphrase,What is static duck typing and how are protocol classes declared?,pep-0544#c43,0.10638297872340426,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,bm25,r27,fact,How do you give type hints to a dictionary with a fixed set of string keys?,pep-0589#c2,0.17391304347826086,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed_header,bm25,r29,identifier,How can context-specific metadata be attached to a type hint?,pep-0643#c3,0.1111111111111111,0.2,0.25,0.14606834984270645,1.0,1.0,0.3333333333333333
+fixed_header,bm25,r30,fact,How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?,pep-0586#c4,0.16,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed_header,bm25,r32,paraphrase,What hook mechanism lets security tools observe actions taken by the Python runtime?,pep-0578#c0,0.17391304347826086,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed_header,bm25,r33,fact,Which operators were added to merge two dictionaries?,pep-0584#c23,0.15384615384615385,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,1.0
+fixed_header,bm25,r35,fact,How can zip be made to raise an error when its iterables have different lengths?,pep-0618#c3,0.42857142857142855,0.6,1.0,0.6843515475204855,1.0,1.0,1.0
+fixed_header,bm25,r36,fact,Why and when was the distutils package deprecated and removed?,pep-0632#c5,0.4444444444444444,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed_header,bm25,r38,identifier,How can extra information be added to an exception after it has been caught?,pep-0678#c0,0.2222222222222222,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed_header,bm25,r39,identifier,Which standard library module parses TOML files?,pep-0680#c5,0.23076923076923078,0.6,1.0,0.6164336326286644,1.0,1.0,1.0
+fixed_header,bm25,r41,fact,Who is the release manager of Python 3.10?,pep-0619#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed_header,bm25,r42,fact,How often is a new feature release of Python published under the current release cycle?,pep-0101#c3,0.0,0.0,0.16666666666666666,0.0,0.0,0.0,0.25
+fixed_header,bm25,r44,fact,Which module provides enumerations in the standard library?,pep-0435#c10,0.2777777777777778,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,bm25,r45,fact,Which operator was dedicated to matrix multiplication?,pep-0465#c1,0.07317073170731707,0.6,0.5,0.4912596920895758,1.0,1.0,1.0
+fixed_header,bm25,r47,identifier,Can underscores be used to group digits in numeric literals like 1_000_000?,pep-0515#c2,1.0,0.2,0.3333333333333333,0.5,1.0,1.0,1.0
+fixed_header,bm25,r48,identifier,Which protocol method lets an object represent a file system path?,pep-0519#c2,0.14285714285714285,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,1.0
+fixed_header,bm25,r50,identifier,How can a module define a fallback for attributes that are not found?,pep-0418#c11,0.0,0.0,0.07692307692307693,0.0,0.0,0.0,0.1111111111111111
+fixed_header,bm25,r51,identifier,Which functions return time as an integer number of nanoseconds?,pep-0564#c4,0.3,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+fixed_header,bm25,r53,identifier,How can a delegating generator yield all values of a subgenerator?,pep-0380#c2,0.3076923076923077,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed_header,bm25,r54,paraphrase,How do instance dictionaries save memory by sharing their keys?,pep-0412#c3,0.8,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed_header,bm25,r56,identifier,Which file declares the build-system requirements of a project?,pep-0517#c17,0.5,0.2,0.5,0.38685280723454163,1.0,1.0,0.5
+fixed_header,bm25,r57,identifier,"Which TOML table stores a project's name, version and dependencies?",pep-0735#c23,0.16666666666666666,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.5
+fixed_header,bm25,r59,identifier,Which module bootstraps pip into a Python installation?,pep-0453#c31,0.125,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+fixed_header,bm25,r60,paraphrase,How can a package be split across multiple directories without an __init__.py file?,pep-0420#c3,0.13043478260869565,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+fixed_header,bm25,r62,fact,When did print stop being a statement and become a function?,pep-3105#c0,0.2,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,bm25,r63,identifier,"How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?",pep-3132#c1,1.0,0.2,0.5,0.6309297535714575,1.0,1.0,1.0
+fixed_header,bm25,r65,fact,What hierarchy of abstract base classes is defined for numbers?,pep-3141#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,bm25,r66,fact,What is the purpose of a PEP and who is responsible for building consensus?,pep-0001#c0,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+fixed_header,bm25,r68,fact,How can each subinterpreter get its own GIL?,pep-0788#c14,0.058823529411764705,0.2,0.2,0.13120507751234178,1.0,1.0,0.5
+fixed_header,bm25,r69,fact,How does the specializing adaptive interpreter speed up bytecode execution?,pep-0659#c0,0.35714285714285715,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,bm25,r71,fact,What is the new statement for declaring type aliases with type parameter syntax?,pep-0695#c0,0.09615384615384616,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,bm25,r72,fact,Which module provides basic statistical functions like mean and median?,pep-0450#c0,0.2857142857142857,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed_header,bm25,r74,paraphrase,"How does the flexible string representation choose between 1, 2 or 4 bytes per character?",pep-0393#c0,0.5,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+fixed_header,bm25,r75,fr,Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?,pep-3118#c13,0.0,0.0,0.0,0.0,0.0,0.0,0.2
+fixed_header,bm25,r77,fr,Quel module de la bibliothèque standard permet de lire des fichiers TOML ?,pep-0545#c6,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed_header,bm25,r78,fr,Comment ajouter une note à une exception déjà levée ?,pep-0646#c33,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed_header,dense,r02,fact,How many spaces per indentation level does the official style guide prescribe?,pep-0008#c2,1.0,0.6,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r03,fact,Which quoting convention should docstrings use?,pep-0257#c1,1.0,0.4,1.0,0.9197207891481876,1.0,1.0,1.0
+fixed_header,dense,r05,trap-superseded,Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?,pep-0634#c0,0.125,0.6,0.5,0.5296347172140421,1.0,1.0,0.5
+fixed_header,dense,r06,fact,"In the match statement specification, how is the wildcard pattern written?",pep-0622#c17,0.0,0.0,0.07142857142857142,0.0,0.0,1.0,0.5
+fixed_header,dense,r08,identifier,What does the start_response callable do in the web server gateway interface?,pep-3333#c18,0.07142857142857142,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+fixed_header,dense,r09,fact,How many members sit on the Python Steering Council?,pep-0729#c8,0.0,0.0,0.058823529411764705,0.0,0.0,0.0,0.14285714285714285
+fixed_header,dense,r11,fact,What symbol is placed before a function definition to apply a decorator?,pep-0318#c10,0.0,0.0,0.1111111111111111,0.0,0.0,1.0,1.0
+fixed_header,dense,r12,fact,Which proposal introduced the bool type with the constants True and False?,pep-0285#c0,0.29411764705882354,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r14,fact,What new method for advanced string formatting replaces the % operator?,pep-3101#c17,0.15151515151515152,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r15,fact,How does a class register as a virtual subclass of an abstract base class?,pep-3119#c11,0.2,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,dense,r17,identifier,Which keywords were introduced to define native coroutines?,pep-0492#c4,0.125,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+fixed_header,dense,r18,identifier,Which decorator generates __init__ and __repr__ automatically for classes holding data?,pep-0557#c3,0.14285714285714285,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed_header,dense,r20,identifier,Can I write list[int] instead of typing.List[int] in annotations?,pep-0604#c1,0.0,0.0,0.125,0.0,0.0,0.0,0.25
+fixed_header,dense,r21,identifier,What syntax allows writing a union of two types as X | Y?,pep-0604#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r23,paraphrase,"What construct supports generics parameterised by an arbitrary number of types, such as array shapes?",pep-0646#c48,0.0967741935483871,0.6,0.3333333333333333,0.4468535299918563,1.0,1.0,1.0
+fixed_header,dense,r24,fact,How can a method be annotated as returning an instance of its own class?,pep-0367#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed_header,dense,r26,paraphrase,What is static duck typing and how are protocol classes declared?,pep-0544#c2,0.10638297872340426,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r27,fact,How do you give type hints to a dictionary with a fixed set of string keys?,pep-0589#c2,0.17391304347826086,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed_header,dense,r29,identifier,How can context-specific metadata be attached to a type hint?,pep-0593#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,dense,r30,fact,How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?,pep-0586#c8,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r32,paraphrase,What hook mechanism lets security tools observe actions taken by the Python runtime?,pep-0578#c0,0.17391304347826086,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed_header,dense,r33,fact,Which operators were added to merge two dictionaries?,pep-0225#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed_header,dense,r35,fact,How can zip be made to raise an error when its iterables have different lengths?,pep-0618#c8,0.2857142857142857,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+fixed_header,dense,r36,fact,Why and when was the distutils package deprecated and removed?,pep-3108#c2,0.4444444444444444,0.8,0.5,0.6608397947263839,1.0,1.0,0.5
+fixed_header,dense,r38,identifier,How can extra information be added to an exception after it has been caught?,pep-0678#c0,0.2222222222222222,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+fixed_header,dense,r39,identifier,Which standard library module parses TOML files?,pep-0680#c7,0.23076923076923078,0.6,0.5,0.5147714448836774,1.0,1.0,1.0
+fixed_header,dense,r41,fact,Who is the release manager of Python 3.10?,pep-0373#c0,0.0,0.0,0.05555555555555555,0.0,0.0,0.0,0.058823529411764705
+fixed_header,dense,r42,fact,How often is a new feature release of Python published under the current release cycle?,pep-0602#c8,0.16666666666666666,0.2,0.25,0.14606834984270645,1.0,1.0,1.0
+fixed_header,dense,r44,fact,Which module provides enumerations in the standard library?,pep-0594#c0,0.0,0.0,0.1,0.0,0.0,0.0,0.25
+fixed_header,dense,r45,fact,Which operator was dedicated to matrix multiplication?,pep-0465#c38,0.07317073170731707,0.6,1.0,0.6843515475204855,1.0,1.0,1.0
+fixed_header,dense,r47,identifier,Can underscores be used to group digits in numeric literals like 1_000_000?,pep-0515#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r48,identifier,Which protocol method lets an object represent a file system path?,pep-0519#c15,0.07142857142857142,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,dense,r50,identifier,How can a module define a fallback for attributes that are not found?,pep-0562#c0,0.2,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,dense,r51,identifier,Which functions return time as an integer number of nanoseconds?,pep-0564#c4,0.4,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed_header,dense,r53,identifier,How can a delegating generator yield all values of a subgenerator?,pep-0380#c0,0.3076923076923077,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+fixed_header,dense,r54,paraphrase,How do instance dictionaries save memory by sharing their keys?,pep-0412#c0,0.8,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+fixed_header,dense,r56,identifier,Which file declares the build-system requirements of a project?,pep-0517#c6,1.0,0.4,0.5,0.6509209298071326,1.0,1.0,0.5
+fixed_header,dense,r57,identifier,"Which TOML table stores a project's name, version and dependencies?",pep-0631#c0,0.0,0.0,0.14285714285714285,0.0,0.0,1.0,0.5
+fixed_header,dense,r59,identifier,Which module bootstraps pip into a Python installation?,pep-0453#c24,0.20833333333333334,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r60,paraphrase,How can a package be split across multiple directories without an __init__.py file?,pep-0382#c3,0.08695652173913043,0.4,0.25,0.27727342735504823,1.0,1.0,0.5
+fixed_header,dense,r62,fact,When did print stop being a statement and become a function?,pep-0214#c10,0.0,0.0,0.1111111111111111,0.0,0.0,1.0,0.5
+fixed_header,dense,r63,identifier,"How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?",pep-3132#c1,1.0,0.2,0.3333333333333333,0.5,1.0,1.0,1.0
+fixed_header,dense,r65,fact,What hierarchy of abstract base classes is defined for numbers?,pep-3119#c5,0.1111111111111111,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.5
+fixed_header,dense,r66,fact,What is the purpose of a PEP and who is responsible for building consensus?,pep-0001#c14,0.5,0.2,0.25,0.2640681225725909,1.0,1.0,1.0
+fixed_header,dense,r68,fact,How can each subinterpreter get its own GIL?,pep-0684#c25,0.11764705882352941,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+fixed_header,dense,r69,fact,How does the specializing adaptive interpreter speed up bytecode execution?,pep-0659#c5,0.35714285714285715,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r71,fact,What is the new statement for declaring type aliases with type parameter syntax?,pep-0695#c10,0.09615384615384616,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r72,fact,Which module provides basic statistical functions like mean and median?,pep-0450#c1,0.2857142857142857,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed_header,dense,r74,paraphrase,"How does the flexible string representation choose between 1, 2 or 4 bytes per character?",pep-0393#c1,0.5,0.6,0.5,0.5296347172140421,1.0,1.0,1.0
+fixed_header,dense,r75,fr,Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?,pep-0008#c0,0.0,0.0,0.08333333333333333,0.0,0.0,1.0,1.0
+fixed_header,dense,r77,fr,Quel module de la bibliothèque standard permet de lire des fichiers TOML ?,pep-0680#c0,0.23076923076923078,0.6,1.0,0.6164336326286644,1.0,1.0,1.0
+fixed_header,dense,r78,fr,Comment ajouter une note à une exception déjà levée ?,pep-0008#c38,0.1111111111111111,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.5
+fixed_header,hybrid,r02,fact,How many spaces per indentation level does the official style guide prescribe?,pep-0008#c2,1.0,0.6,1.0,0.9674679834891693,1.0,1.0,1.0
+fixed_header,hybrid,r03,fact,Which quoting convention should docstrings use?,pep-0257#c0,1.0,0.4,0.5,0.6934264036172708,1.0,1.0,1.0
+fixed_header,hybrid,r05,trap-superseded,Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?,pep-0634#c0,0.041666666666666664,0.2,0.25,0.14606834984270645,1.0,1.0,0.3333333333333333
+fixed_header,hybrid,r06,fact,"In the match statement specification, how is the wildcard pattern written?",pep-0622#c17,0.16666666666666666,0.2,0.25,0.14606834984270645,1.0,1.0,0.5
+fixed_header,hybrid,r08,identifier,What does the start_response callable do in the web server gateway interface?,pep-3333#c33,0.10714285714285714,0.6,1.0,0.6843515475204855,1.0,1.0,1.0
+fixed_header,hybrid,r09,fact,How many members sit on the Python Steering Council?,pep-0729#c9,0.0,0.0,0.0,0.0,0.0,0.0,0.2
+fixed_header,hybrid,r11,fact,What symbol is placed before a function definition to apply a decorator?,pep-0318#c10,0.05555555555555555,0.2,0.25,0.14606834984270645,1.0,1.0,1.0
+fixed_header,hybrid,r12,fact,Which proposal introduced the bool type with the constants True and False?,pep-0285#c0,0.29411764705882354,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r14,fact,What new method for advanced string formatting replaces the % operator?,pep-3101#c0,0.15151515151515152,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r15,fact,How does a class register as a virtual subclass of an abstract base class?,pep-3119#c11,0.6,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+fixed_header,hybrid,r17,identifier,Which keywords were introduced to define native coroutines?,pep-0492#c5,0.125,0.6,0.5,0.4912596920895758,1.0,1.0,1.0
+fixed_header,hybrid,r18,identifier,Which decorator generates __init__ and __repr__ automatically for classes holding data?,pep-0557#c25,0.14285714285714285,0.6,0.5,0.4912596920895758,1.0,1.0,1.0
+fixed_header,hybrid,r20,identifier,Can I write list[int] instead of typing.List[int] in annotations?,pep-0604#c1,0.0,0.0,0.07142857142857142,0.0,0.0,1.0,0.3333333333333333
+fixed_header,hybrid,r21,identifier,What syntax allows writing a union of two types as X | Y?,pep-0604#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r23,paraphrase,"What construct supports generics parameterised by an arbitrary number of types, such as array shapes?",pep-0646#c2,0.0967741935483871,0.6,0.5,0.5147714448836774,1.0,1.0,1.0
+fixed_header,hybrid,r24,fact,How can a method be annotated as returning an instance of its own class?,pep-0484#c4,0.0,0.0,0.058823529411764705,0.0,0.0,0.0,0.1
+fixed_header,hybrid,r26,paraphrase,What is static duck typing and how are protocol classes declared?,pep-0544#c2,0.10638297872340426,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r27,fact,How do you give type hints to a dictionary with a fixed set of string keys?,pep-0589#c2,0.17391304347826086,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed_header,hybrid,r29,identifier,How can context-specific metadata be attached to a type hint?,pep-0593#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,hybrid,r30,fact,How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?,pep-0586#c4,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r32,paraphrase,What hook mechanism lets security tools observe actions taken by the Python runtime?,pep-0578#c0,0.21739130434782608,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r33,fact,Which operators were added to merge two dictionaries?,pep-0225#c3,0.0,0.0,0.14285714285714285,0.0,0.0,1.0,0.5
+fixed_header,hybrid,r35,fact,How can zip be made to raise an error when its iterables have different lengths?,pep-0618#c1,0.42857142857142855,0.6,0.3333333333333333,0.4468535299918563,1.0,1.0,1.0
+fixed_header,hybrid,r36,fact,Why and when was the distutils package deprecated and removed?,pep-3108#c2,0.4444444444444444,0.8,0.5,0.6608397947263839,1.0,1.0,0.5
+fixed_header,hybrid,r38,identifier,How can extra information be added to an exception after it has been caught?,pep-0678#c0,0.2222222222222222,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+fixed_header,hybrid,r39,identifier,Which standard library module parses TOML files?,pep-0680#c5,0.23076923076923078,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+fixed_header,hybrid,r41,fact,Who is the release manager of Python 3.10?,pep-0569#c0,0.0,0.0,0.16666666666666666,0.0,0.0,0.0,0.16666666666666666
+fixed_header,hybrid,r42,fact,How often is a new feature release of Python published under the current release cycle?,pep-0602#c8,0.16666666666666666,0.2,0.5,0.21398626473452756,1.0,1.0,1.0
+fixed_header,hybrid,r44,fact,Which module provides enumerations in the standard library?,pep-0435#c15,0.2222222222222222,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed_header,hybrid,r45,fact,Which operator was dedicated to matrix multiplication?,pep-0465#c38,0.04878048780487805,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+fixed_header,hybrid,r47,identifier,Can underscores be used to group digits in numeric literals like 1_000_000?,pep-0515#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r48,identifier,Which protocol method lets an object represent a file system path?,pep-0519#c2,0.14285714285714285,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,1.0
+fixed_header,hybrid,r50,identifier,How can a module define a fallback for attributes that are not found?,pep-0252#c14,0.2,0.2,0.25,0.14606834984270645,1.0,1.0,0.3333333333333333
+fixed_header,hybrid,r51,identifier,Which functions return time as an integer number of nanoseconds?,pep-0564#c4,0.4,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed_header,hybrid,r53,identifier,How can a delegating generator yield all values of a subgenerator?,pep-0380#c2,0.3076923076923077,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+fixed_header,hybrid,r54,paraphrase,How do instance dictionaries save memory by sharing their keys?,pep-0412#c0,0.8,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+fixed_header,hybrid,r56,identifier,Which file declares the build-system requirements of a project?,pep-0518#c5,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+fixed_header,hybrid,r57,identifier,"Which TOML table stores a project's name, version and dependencies?",pep-0735#c23,0.16666666666666666,0.2,0.2,0.13120507751234178,1.0,1.0,0.5
+fixed_header,hybrid,r59,identifier,Which module bootstraps pip into a Python installation?,pep-0453#c24,0.20833333333333334,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r60,paraphrase,How can a package be split across multiple directories without an __init__.py file?,pep-0420#c3,0.13043478260869565,0.6,1.0,0.6164336326286644,1.0,1.0,1.0
+fixed_header,hybrid,r62,fact,When did print stop being a statement and become a function?,pep-0214#c7,0.2,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.5
+fixed_header,hybrid,r63,identifier,"How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?",pep-3132#c1,1.0,0.2,0.5,0.6309297535714575,1.0,1.0,1.0
+fixed_header,hybrid,r65,fact,What hierarchy of abstract base classes is defined for numbers?,pep-3141#c0,0.1111111111111111,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,hybrid,r66,fact,What is the purpose of a PEP and who is responsible for building consensus?,pep-0001#c0,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+fixed_header,hybrid,r68,fact,How can each subinterpreter get its own GIL?,pep-0684#c13,0.058823529411764705,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,1.0
+fixed_header,hybrid,r69,fact,How does the specializing adaptive interpreter speed up bytecode execution?,pep-0659#c5,0.35714285714285715,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r71,fact,What is the new statement for declaring type aliases with type parameter syntax?,pep-0695#c10,0.09615384615384616,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r72,fact,Which module provides basic statistical functions like mean and median?,pep-0450#c0,0.2857142857142857,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+fixed_header,hybrid,r74,paraphrase,"How does the flexible string representation choose between 1, 2 or 4 bytes per character?",pep-0393#c0,0.5,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+fixed_header,hybrid,r75,fr,Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?,pep-0008#c0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+fixed_header,hybrid,r77,fr,Quel module de la bibliothèque standard permet de lire des fichiers TOML ?,pep-0545#c6,0.07692307692307693,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+fixed_header,hybrid,r78,fr,Comment ajouter une note à une exception déjà levée ?,pep-0646#c33,0.0,0.0,0.16666666666666666,0.0,0.0,0.0,0.2
+section,bm25,r02,fact,How many spaces per indentation level does the official style guide prescribe?,pep-0008#c3,1.0,0.4,1.0,1.0,1.0,1.0,1.0
+section,bm25,r03,fact,Which quoting convention should docstrings use?,pep-0257#c0,1.0,0.2,0.3333333333333333,0.5,1.0,1.0,1.0
+section,bm25,r05,trap-superseded,Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?,pep-0634#c20,0.0,0.0,0.09090909090909091,0.0,0.0,1.0,0.5
+section,bm25,r06,fact,"In the match statement specification, how is the wildcard pattern written?",pep-0634#c11,0.2857142857142857,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+section,bm25,r08,identifier,What does the start_response callable do in the web server gateway interface?,pep-3333#c33,0.08695652173913043,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+section,bm25,r09,fact,How many members sit on the Python Steering Council?,pep-0001#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.25
+section,bm25,r11,fact,What symbol is placed before a function definition to apply a decorator?,pep-0318#c14,0.13333333333333333,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+section,bm25,r12,fact,Which proposal introduced the bool type with the constants True and False?,pep-0285#c0,0.3125,1.0,1.0,1.0,1.0,1.0,1.0
+section,bm25,r14,fact,What new method for advanced string formatting replaces the % operator?,pep-3101#c0,0.08823529411764706,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+section,bm25,r15,fact,How does a class register as a virtual subclass of an abstract base class?,pep-3119#c12,0.42857142857142855,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+section,bm25,r17,identifier,Which keywords were introduced to define native coroutines?,pep-0492#c5,0.09090909090909091,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+section,bm25,r18,identifier,Which decorator generates __init__ and __repr__ automatically for classes holding data?,pep-0557#c26,0.1111111111111111,0.4,0.5,0.36005461457723403,1.0,1.0,1.0
+section,bm25,r20,identifier,Can I write list[int] instead of typing.List[int] in annotations?,pep-0604#c2,0.0,0.0,0.125,0.0,0.0,0.0,0.25
+section,bm25,r21,identifier,What syntax allows writing a union of two types as X | Y?,pep-0604#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+section,bm25,r23,paraphrase,"What construct supports generics parameterised by an arbitrary number of types, such as array shapes?",pep-0646#c0,0.038461538461538464,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+section,bm25,r24,fact,How can a method be annotated as returning an instance of its own class?,pep-0484#c40,0.0,0.0,0.06666666666666667,0.0,0.0,0.0,0.08333333333333333
+section,bm25,r26,paraphrase,What is static duck typing and how are protocol classes declared?,pep-0544#c30,0.10204081632653061,1.0,1.0,1.0,1.0,1.0,1.0
+section,bm25,r27,fact,How do you give type hints to a dictionary with a fixed set of string keys?,pep-0589#c0,0.19047619047619047,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+section,bm25,r29,identifier,How can context-specific metadata be attached to a type hint?,pep-0519#c20,0.1,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.3333333333333333
+section,bm25,r30,fact,How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?,pep-0586#c5,0.16,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+section,bm25,r32,paraphrase,What hook mechanism lets security tools observe actions taken by the Python runtime?,pep-0578#c0,0.17391304347826086,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+section,bm25,r33,fact,Which operators were added to merge two dictionaries?,pep-0584#c29,0.2222222222222222,0.4,0.5,0.38356636737133565,1.0,1.0,1.0
+section,bm25,r35,fact,How can zip be made to raise an error when its iterables have different lengths?,pep-0618#c4,0.2857142857142857,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+section,bm25,r36,fact,Why and when was the distutils package deprecated and removed?,pep-3108#c2,0.3,0.6,0.5,0.5296347172140421,1.0,1.0,0.5
+section,bm25,r38,identifier,How can extra information be added to an exception after it has been caught?,pep-0678#c1,0.18181818181818182,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+section,bm25,r39,identifier,Which standard library module parses TOML files?,pep-0680#c5,0.125,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,1.0
+section,bm25,r41,fact,Who is the release manager of Python 3.10?,pep-0619#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+section,bm25,r42,fact,How often is a new feature release of Python published under the current release cycle?,pep-0101#c3,0.0,0.0,0.1,0.0,0.0,1.0,0.5
+section,bm25,r44,fact,Which module provides enumerations in the standard library?,pep-0435#c9,0.2222222222222222,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+section,bm25,r45,fact,Which operator was dedicated to matrix multiplication?,pep-0465#c1,0.07692307692307693,0.6,0.5,0.4912596920895758,1.0,1.0,1.0
+section,bm25,r47,identifier,Can underscores be used to group digits in numeric literals like 1_000_000?,pep-0515#c2,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,1.0
+section,bm25,r48,identifier,Which protocol method lets an object represent a file system path?,pep-0519#c4,0.13333333333333333,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+section,bm25,r50,identifier,How can a module define a fallback for attributes that are not found?,pep-0451#c17,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+section,bm25,r51,identifier,Which functions return time as an integer number of nanoseconds?,pep-0410#c5,0.25,0.6,0.5,0.5296347172140421,1.0,1.0,0.5
+section,bm25,r53,identifier,How can a delegating generator yield all values of a subgenerator?,pep-0380#c2,0.3333333333333333,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+section,bm25,r54,paraphrase,How do instance dictionaries save memory by sharing their keys?,pep-0412#c0,0.5714285714285714,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+section,bm25,r56,identifier,Which file declares the build-system requirements of a project?,pep-0517#c17,0.0,0.0,0.1111111111111111,0.0,0.0,1.0,0.5
+section,bm25,r57,identifier,"Which TOML table stores a project's name, version and dependencies?",pep-0735#c25,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,0.5
+section,bm25,r59,identifier,Which module bootstraps pip into a Python installation?,pep-0453#c33,0.13636363636363635,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+section,bm25,r60,paraphrase,How can a package be split across multiple directories without an __init__.py file?,pep-0420#c3,0.1,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+section,bm25,r62,fact,When did print stop being a statement and become a function?,pep-3105#c0,0.25,0.2,1.0,0.3903800499921017,1.0,1.0,1.0
+section,bm25,r63,identifier,"How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?",pep-3132#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+section,bm25,r65,fact,What hierarchy of abstract base classes is defined for numbers?,pep-3141#c0,0.125,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+section,bm25,r66,fact,What is the purpose of a PEP and who is responsible for building consensus?,pep-0001#c0,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+section,bm25,r68,fact,How can each subinterpreter get its own GIL?,pep-0788#c14,0.0,0.0,0.05,0.0,0.0,1.0,0.5
+section,bm25,r69,fact,How does the specializing adaptive interpreter speed up bytecode execution?,pep-0659#c0,0.23076923076923078,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+section,bm25,r71,fact,What is the new statement for declaring type aliases with type parameter syntax?,pep-0695#c0,0.09615384615384616,1.0,1.0,1.0,1.0,1.0,1.0
+section,bm25,r72,fact,Which module provides basic statistical functions like mean and median?,pep-0450#c0,0.36363636363636365,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+section,bm25,r74,paraphrase,"How does the flexible string representation choose between 1, 2 or 4 bytes per character?",pep-0393#c0,0.375,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+section,bm25,r75,fr,Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?,pep-3118#c15,0.0,0.0,0.0,0.0,0.0,0.0,0.25
+section,bm25,r77,fr,Quel module de la bibliothèque standard permet de lire des fichiers TOML ?,pep-0545#c7,0.0,0.0,0.0,0.0,0.0,0.0,0.058823529411764705
+section,bm25,r78,fr,Comment ajouter une note à une exception déjà levée ?,pep-0646#c36,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+section,dense,r02,fact,How many spaces per indentation level does the official style guide prescribe?,pep-0008#c2,0.5,0.2,0.25,0.2640681225725909,1.0,1.0,1.0
+section,dense,r03,fact,Which quoting convention should docstrings use?,pep-0257#c0,1.0,0.2,0.5,0.6309297535714575,1.0,1.0,1.0
+section,dense,r05,trap-superseded,Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?,pep-0636#c0,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,0.3333333333333333
+section,dense,r06,fact,"In the match statement specification, how is the wildcard pattern written?",pep-0634#c3,0.14285714285714285,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,1.0
+section,dense,r08,identifier,What does the start_response callable do in the web server gateway interface?,pep-3333#c33,0.08695652173913043,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+section,dense,r09,fact,How many members sit on the Python Steering Council?,pep-8100#c0,0.0,0.0,0.0,0.0,0.0,1.0,0.3333333333333333
+section,dense,r11,fact,What symbol is placed before a function definition to apply a decorator?,pep-0318#c7,0.06666666666666667,0.2,0.2,0.13120507751234178,1.0,1.0,1.0
+section,dense,r12,fact,Which proposal introduced the bool type with the constants True and False?,pep-0285#c0,0.25,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+section,dense,r14,fact,What new method for advanced string formatting replaces the % operator?,pep-3101#c0,0.14705882352941177,1.0,1.0,1.0,1.0,1.0,1.0
+section,dense,r15,fact,How does a class register as a virtual subclass of an abstract base class?,pep-3119#c12,0.42857142857142855,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+section,dense,r17,identifier,Which keywords were introduced to define native coroutines?,pep-0492#c5,0.09090909090909091,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+section,dense,r18,identifier,Which decorator generates __init__ and __repr__ automatically for classes holding data?,pep-0557#c2,0.16666666666666666,0.6,0.5,0.5296347172140421,1.0,1.0,1.0
+section,dense,r20,identifier,Can I write list[int] instead of typing.List[int] in annotations?,pep-0604#c2,0.0,0.0,0.07692307692307693,0.0,0.0,0.0,0.25
+section,dense,r21,identifier,What syntax allows writing a union of two types as X | Y?,pep-0604#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+section,dense,r23,paraphrase,"What construct supports generics parameterised by an arbitrary number of types, such as array shapes?",pep-0646#c0,0.07692307692307693,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+section,dense,r24,fact,How can a method be annotated as returning an instance of its own class?,pep-0367#c4,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+section,dense,r26,paraphrase,What is static duck typing and how are protocol classes declared?,pep-0544#c49,0.10204081632653061,1.0,1.0,1.0,1.0,1.0,1.0
+section,dense,r27,fact,How do you give type hints to a dictionary with a fixed set of string keys?,pep-0589#c2,0.19047619047619047,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+section,dense,r29,identifier,How can context-specific metadata be attached to a type hint?,pep-0593#c1,0.1,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+section,dense,r30,fact,How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?,pep-0586#c8,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+section,dense,r32,paraphrase,What hook mechanism lets security tools observe actions taken by the Python runtime?,pep-0578#c0,0.21739130434782608,1.0,1.0,1.0,1.0,1.0,1.0
+section,dense,r33,fact,Which operators were added to merge two dictionaries?,pep-0225#c3,0.0,0.0,0.058823529411764705,0.0,0.0,1.0,0.5
+section,dense,r35,fact,How can zip be made to raise an error when its iterables have different lengths?,pep-0618#c11,0.5714285714285714,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+section,dense,r36,fact,Why and when was the distutils package deprecated and removed?,pep-3108#c2,0.3,0.6,0.5,0.5147714448836774,1.0,1.0,0.5
+section,dense,r38,identifier,How can extra information be added to an exception after it has been caught?,pep-3134#c12,0.09090909090909091,0.2,0.25,0.14606834984270645,1.0,1.0,0.3333333333333333
+section,dense,r39,identifier,Which standard library module parses TOML files?,pep-0680#c5,0.25,0.4,0.3333333333333333,0.30078518014914984,1.0,1.0,1.0
+section,dense,r41,fact,Who is the release manager of Python 3.10?,pep-0404#c0,1.0,0.2,0.5,0.6309297535714575,1.0,1.0,0.5
+section,dense,r42,fact,How often is a new feature release of Python published under the current release cycle?,pep-0602#c0,0.0,0.0,0.1111111111111111,0.0,0.0,1.0,1.0
+section,dense,r44,fact,Which module provides enumerations in the standard library?,pep-3100#c8,0.0,0.0,0.1,0.0,0.0,0.0,0.16666666666666666
+section,dense,r45,fact,Which operator was dedicated to matrix multiplication?,pep-0465#c29,0.07692307692307693,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+section,dense,r47,identifier,Can underscores be used to group digits in numeric literals like 1_000_000?,pep-0515#c1,1.0,0.2,0.3333333333333333,0.5,1.0,1.0,1.0
+section,dense,r48,identifier,Which protocol method lets an object represent a file system path?,pep-0519#c19,0.2,0.6,1.0,0.6843515475204855,1.0,1.0,1.0
+section,dense,r50,identifier,How can a module define a fallback for attributes that are not found?,pep-0562#c4,0.2,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+section,dense,r51,identifier,Which functions return time as an integer number of nanoseconds?,pep-0564#c6,0.3333333333333333,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+section,dense,r53,identifier,How can a delegating generator yield all values of a subgenerator?,pep-0380#c0,0.3333333333333333,0.6,0.5,0.5147714448836774,1.0,1.0,1.0
+section,dense,r54,paraphrase,How do instance dictionaries save memory by sharing their keys?,pep-0412#c1,0.5714285714285714,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+section,dense,r56,identifier,Which file declares the build-system requirements of a project?,pep-0518#c6,0.5,0.2,0.25,0.2640681225725909,1.0,1.0,1.0
+section,dense,r57,identifier,"Which TOML table stores a project's name, version and dependencies?",pep-0621#c4,0.4,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+section,dense,r59,identifier,Which module bootstraps pip into a Python installation?,pep-0453#c38,0.22727272727272727,1.0,1.0,1.0,1.0,1.0,1.0
+section,dense,r60,paraphrase,How can a package be split across multiple directories without an __init__.py file?,pep-0382#c5,0.05,0.2,0.25,0.14606834984270645,1.0,1.0,0.5
+section,dense,r62,fact,When did print stop being a statement and become a function?,pep-0214#c10,0.0,0.0,0.1,0.0,0.0,1.0,0.5
+section,dense,r63,identifier,"How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?",pep-3132#c3,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,1.0
+section,dense,r65,fact,What hierarchy of abstract base classes is defined for numbers?,pep-3119#c0,0.125,0.2,0.2,0.13120507751234178,1.0,1.0,0.5
+section,dense,r66,fact,What is the purpose of a PEP and who is responsible for building consensus?,pep-0001#c15,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,1.0
+section,dense,r68,fact,How can each subinterpreter get its own GIL?,pep-0703#c74,0.06666666666666667,0.2,0.2,0.13120507751234178,1.0,1.0,0.5
+section,dense,r69,fact,How does the specializing adaptive interpreter speed up bytecode execution?,pep-0659#c2,0.3076923076923077,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+section,dense,r71,fact,What is the new statement for declaring type aliases with type parameter syntax?,pep-0695#c10,0.09615384615384616,1.0,1.0,1.0,1.0,1.0,1.0
+section,dense,r72,fact,Which module provides basic statistical functions like mean and median?,pep-0450#c1,0.45454545454545453,1.0,1.0,1.0,1.0,1.0,1.0
+section,dense,r74,paraphrase,"How does the flexible string representation choose between 1, 2 or 4 bytes per character?",pep-0393#c17,0.375,0.6,0.5,0.5147714448836774,1.0,1.0,1.0
+section,dense,r75,fr,Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?,pep-0007#c0,0.0,0.0,0.0,0.0,0.0,1.0,0.5
+section,dense,r77,fr,Quel module de la bibliothèque standard permet de lire des fichiers TOML ?,pep-0680#c5,0.375,0.6,0.5,0.4912596920895758,1.0,1.0,1.0
+section,dense,r78,fr,Comment ajouter une note à une exception déjà levée ?,pep-0008#c41,0.09090909090909091,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.3333333333333333
+section,hybrid,r02,fact,How many spaces per indentation level does the official style guide prescribe?,pep-0008#c3,1.0,0.4,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r03,fact,Which quoting convention should docstrings use?,pep-0257#c0,1.0,0.2,0.5,0.6309297535714575,1.0,1.0,1.0
+section,hybrid,r05,trap-superseded,Which proposal first suggested adding structural pattern matching but was later replaced by a newer specification?,pep-0622#c64,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,1.0
+section,hybrid,r06,fact,"In the match statement specification, how is the wildcard pattern written?",pep-0634#c6,0.2857142857142857,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+section,hybrid,r08,identifier,What does the start_response callable do in the web server gateway interface?,pep-3333#c33,0.08695652173913043,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+section,hybrid,r09,fact,How many members sit on the Python Steering Council?,pep-0001#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.2
+section,hybrid,r11,fact,What symbol is placed before a function definition to apply a decorator?,pep-0318#c7,0.06666666666666667,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,1.0
+section,hybrid,r12,fact,Which proposal introduced the bool type with the constants True and False?,pep-0285#c0,0.25,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+section,hybrid,r14,fact,What new method for advanced string formatting replaces the % operator?,pep-3101#c0,0.14705882352941177,1.0,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r15,fact,How does a class register as a virtual subclass of an abstract base class?,pep-3119#c12,0.5714285714285714,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+section,hybrid,r17,identifier,Which keywords were introduced to define native coroutines?,pep-0492#c5,0.09090909090909091,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+section,hybrid,r18,identifier,Which decorator generates __init__ and __repr__ automatically for classes holding data?,pep-0557#c26,0.2222222222222222,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+section,hybrid,r20,identifier,Can I write list[int] instead of typing.List[int] in annotations?,pep-0604#c2,0.0,0.0,0.1,0.0,0.0,1.0,0.3333333333333333
+section,hybrid,r21,identifier,What syntax allows writing a union of two types as X | Y?,pep-0604#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r23,paraphrase,"What construct supports generics parameterised by an arbitrary number of types, such as array shapes?",pep-0646#c0,0.07692307692307693,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+section,hybrid,r24,fact,How can a method be annotated as returning an instance of its own class?,pep-0484#c40,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+section,hybrid,r26,paraphrase,What is static duck typing and how are protocol classes declared?,pep-0544#c30,0.10204081632653061,1.0,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r27,fact,How do you give type hints to a dictionary with a fixed set of string keys?,pep-0589#c2,0.19047619047619047,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+section,hybrid,r29,identifier,How can context-specific metadata be attached to a type hint?,pep-0593#c1,0.1,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+section,hybrid,r30,fact,How do you declare that a parameter accepts only specific literal values like 'r' or 'w'?,pep-0586#c5,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r32,paraphrase,What hook mechanism lets security tools observe actions taken by the Python runtime?,pep-0578#c0,0.21739130434782608,1.0,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r33,fact,Which operators were added to merge two dictionaries?,pep-0225#c3,0.0,0.0,0.14285714285714285,0.0,0.0,1.0,0.3333333333333333
+section,hybrid,r35,fact,How can zip be made to raise an error when its iterables have different lengths?,pep-0618#c4,0.42857142857142855,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+section,hybrid,r36,fact,Why and when was the distutils package deprecated and removed?,pep-3108#c2,0.4,0.8,0.5,0.6608397947263839,1.0,1.0,0.5
+section,hybrid,r38,identifier,How can extra information be added to an exception after it has been caught?,pep-0678#c1,0.18181818181818182,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+section,hybrid,r39,identifier,Which standard library module parses TOML files?,pep-0680#c5,0.375,0.6,0.5,0.5147714448836774,1.0,1.0,1.0
+section,hybrid,r41,fact,Who is the release manager of Python 3.10?,pep-0619#c0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r42,fact,How often is a new feature release of Python published under the current release cycle?,pep-0607#c3,0.0,0.0,0.125,0.0,0.0,1.0,0.5
+section,hybrid,r44,fact,Which module provides enumerations in the standard library?,pep-0408#c0,0.05555555555555555,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+section,hybrid,r45,fact,Which operator was dedicated to matrix multiplication?,pep-0465#c2,0.10256410256410256,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+section,hybrid,r47,identifier,Can underscores be used to group digits in numeric literals like 1_000_000?,pep-0515#c1,1.0,0.2,0.25,0.43067655807339306,1.0,1.0,1.0
+section,hybrid,r48,identifier,Which protocol method lets an object represent a file system path?,pep-0519#c4,0.13333333333333333,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+section,hybrid,r50,identifier,How can a module define a fallback for attributes that are not found?,pep-0451#c23,0.2,0.2,0.2,0.13120507751234178,1.0,1.0,0.3333333333333333
+section,hybrid,r51,identifier,Which functions return time as an integer number of nanoseconds?,pep-0564#c6,0.3333333333333333,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+section,hybrid,r53,identifier,How can a delegating generator yield all values of a subgenerator?,pep-0380#c0,0.3333333333333333,0.6,0.5,0.5147714448836774,1.0,1.0,1.0
+section,hybrid,r54,paraphrase,How do instance dictionaries save memory by sharing their keys?,pep-0412#c0,0.5714285714285714,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+section,hybrid,r56,identifier,Which file declares the build-system requirements of a project?,pep-0518#c6,0.5,0.2,0.25,0.2640681225725909,1.0,1.0,1.0
+section,hybrid,r57,identifier,"Which TOML table stores a project's name, version and dependencies?",pep-0621#c26,0.2,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,1.0
+section,hybrid,r59,identifier,Which module bootstraps pip into a Python installation?,pep-0453#c39,0.18181818181818182,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+section,hybrid,r60,paraphrase,How can a package be split across multiple directories without an __init__.py file?,pep-0382#c5,0.1,0.4,0.25,0.27727342735504823,1.0,1.0,0.3333333333333333
+section,hybrid,r62,fact,When did print stop being a statement and become a function?,pep-0214#c7,0.25,0.2,0.25,0.16812753627111746,1.0,1.0,0.5
+section,hybrid,r63,identifier,"How do you unpack the first element and collect the rest with a starred target, like a, *rest = seq?",pep-3132#c3,1.0,0.2,0.3333333333333333,0.5,1.0,1.0,1.0
+section,hybrid,r65,fact,What hierarchy of abstract base classes is defined for numbers?,pep-3141#c0,0.125,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+section,hybrid,r66,fact,What is the purpose of a PEP and who is responsible for building consensus?,pep-0001#c2,1.0,0.4,0.5,0.6240505200038379,1.0,1.0,1.0
+section,hybrid,r68,fact,How can each subinterpreter get its own GIL?,pep-0684#c17,0.06666666666666667,0.2,0.2,0.13120507751234178,1.0,1.0,1.0
+section,hybrid,r69,fact,How does the specializing adaptive interpreter speed up bytecode execution?,pep-0659#c2,0.3076923076923077,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+section,hybrid,r71,fact,What is the new statement for declaring type aliases with type parameter syntax?,pep-0695#c10,0.09615384615384616,1.0,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r72,fact,Which module provides basic statistical functions like mean and median?,pep-0450#c0,0.36363636363636365,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+section,hybrid,r74,paraphrase,"How does the flexible string representation choose between 1, 2 or 4 bytes per character?",pep-0393#c0,0.375,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+section,hybrid,r75,fr,Quelle est la longueur maximale de ligne recommandée par le guide de style Python ?,pep-0008#c0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+section,hybrid,r77,fr,Quel module de la bibliothèque standard permet de lire des fichiers TOML ?,pep-0680#c18,0.125,0.2,0.2,0.13120507751234178,1.0,1.0,1.0
+section,hybrid,r78,fr,Comment ajouter une note à une exception déjà levée ?,pep-0646#c36,0.0,0.0,0.16666666666666666,0.0,0.0,0.0,0.2

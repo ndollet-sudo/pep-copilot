@@ -1,0 +1,244 @@
+strategy,variant,qid,tag,question,top1,R,P,MRR,nDCG,Hit,docHit,docMRR
+fixed,bm25,r01,fact,What maximum line length does the Python style guide recommend for code?,pep-0008#c0,0.5,0.2,0.3333333333333333,0.3065735963827292,1.0,1.0,1.0
+fixed,bm25,r04,paraphrase,"What new operator lets you bind a variable inside an expression, nicknamed the walrus?",pep-0622#c29,0.0,0.0,0.14285714285714285,0.0,0.0,0.0,0.25
+fixed,bm25,r07,identifier,How can CPython be built without the global interpreter lock?,pep-0703#c14,0.23076923076923078,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed,bm25,r10,identifier,Which methods must an object implement to be used as a context manager with the with statement?,pep-0343#c17,0.13636363636363635,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed,bm25,r13,identifier,How do you declare the character encoding of a Python source file?,pep-0263#c0,0.3333333333333333,0.2,0.3333333333333333,0.23463936301137822,1.0,1.0,1.0
+fixed,bm25,r16,fact,How can super() be called without passing the class and instance explicitly?,pep-3135#c1,1.0,0.4,1.0,1.0,1.0,1.0,1.0
+fixed,bm25,r19,identifier,How do you enable postponed evaluation of annotations with a future import?,pep-0563#c3,0.5,0.4,1.0,0.5585075862632192,1.0,1.0,1.0
+fixed,bm25,r22,identifier,How do you annotate a decorator that preserves the parameters of the wrapped callable?,pep-0612#c0,0.10526315789473684,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+fixed,bm25,r25,identifier,Which decorator tells a type checker that a method is meant to override a base class method?,pep-0591#c2,0.15384615384615385,0.4,0.5,0.38356636737133565,1.0,1.0,0.5
+fixed,bm25,r28,fact,How do you mark a name as not to be reassigned or overridden for type checkers?,pep-0705#c15,0.1111111111111111,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+fixed,bm25,r31,fact,Which marker in a function signature makes the preceding parameters positional-only?,pep-0362#c2,0.07692307692307693,0.4,0.5,0.38356636737133565,1.0,1.0,0.5
+fixed,bm25,r34,identifier,Which string methods remove a prefix or a suffix?,pep-0616#c1,0.4444444444444444,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed,bm25,r37,identifier,What syntax handles several unrelated exceptions raised together?,pep-0654#c0,0.030303030303030304,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,bm25,r40,paraphrase,Which old and unmaintained standard library modules were scheduled for removal?,pep-0594#c3,0.2,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+fixed,bm25,r43,fact,How long must a feature be deprecated before it can be removed?,pep-3108#c1,0.25,0.2,0.3333333333333333,0.19519002499605084,1.0,1.0,0.5
+fixed,bm25,r46,identifier,Which function returns directory entries with file attributes to speed up os.walk?,pep-0471#c0,0.13636363636363635,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+fixed,bm25,r49,identifier,Which built-in function drops into the debugger?,pep-0553#c1,0.5,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed,bm25,r52,paraphrase,"How can asynchronous code keep context-local state, similar to thread-local storage?",pep-0567#c0,0.18181818181818182,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed,bm25,r55,identifier,What is the file format of a built Python distribution archive named .whl?,pep-0427#c3,0.6,0.6,1.0,0.6843515475204855,1.0,1.0,1.0
+fixed,bm25,r58,identifier,What marker file tells pip that a Python environment is managed by the operating system package manager?,pep-0668#c11,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,bm25,r61,identifier,Which keyword allows a nested function to rebind a variable of an enclosing function?,pep-0227#c17,0.0,0.0,0.0,0.0,0.0,1.0,0.5
+fixed,bm25,r64,identifier,How does Python attach the original exception when another is raised during handling?,pep-0344#c3,0.14285714285714285,0.4,0.5,0.38356636737133565,1.0,1.0,0.5
+fixed,bm25,r67,fact,How are objects made immortal so that their reference count never changes?,pep-0703#c19,0.06451612903225806,0.4,0.25,0.27727342735504823,1.0,1.0,0.5
+fixed,bm25,r70,fact,Are comprehensions still executed as separate nested functions in Python 3.12?,pep-0709#c0,0.125,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,bm25,r73,fact,Which module should be used to generate secure random tokens for passwords?,pep-0506#c2,0.14285714285714285,0.2,0.5,0.21398626473452756,1.0,1.0,1.0
+fixed,bm25,r76,fr,Comment rendre le GIL optionnel lors de la compilation de CPython ?,pep-0659#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,bm25,r79,fr,Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?,pep-0814#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,dense,r01,fact,What maximum line length does the Python style guide recommend for code?,pep-0008#c0,1.0,0.4,0.5,0.6240505200038379,1.0,1.0,1.0
+fixed,dense,r04,paraphrase,"What new operator lets you bind a variable inside an expression, nicknamed the walrus?",pep-0572#c7,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,1.0
+fixed,dense,r07,identifier,How can CPython be built without the global interpreter lock?,pep-0703#c0,0.23076923076923078,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed,dense,r10,identifier,Which methods must an object implement to be used as a context manager with the with statement?,pep-0343#c18,0.18181818181818182,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed,dense,r13,identifier,How do you declare the character encoding of a Python source file?,pep-0263#c0,0.3333333333333333,0.2,0.25,0.20210734650054757,1.0,1.0,1.0
+fixed,dense,r16,fact,How can super() be called without passing the class and instance explicitly?,pep-3135#c1,1.0,0.4,1.0,0.9197207891481876,1.0,1.0,1.0
+fixed,dense,r19,identifier,How do you enable postponed evaluation of annotations with a future import?,pep-0749#c4,0.5,0.4,0.25,0.3191471544989227,1.0,1.0,0.5
+fixed,dense,r22,identifier,How do you annotate a decorator that preserves the parameters of the wrapped callable?,pep-0612#c2,0.21052631578947367,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+fixed,dense,r25,identifier,Which decorator tells a type checker that a method is meant to override a base class method?,pep-0591#c2,0.07692307692307693,0.2,0.2,0.13120507751234178,1.0,0.0,0.25
+fixed,dense,r28,fact,How do you mark a name as not to be reassigned or overridden for type checkers?,pep-0729#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,dense,r31,fact,Which marker in a function signature makes the preceding parameters positional-only?,pep-0457#c4,0.07692307692307693,0.4,0.5,0.34519134224686937,1.0,1.0,0.5
+fixed,dense,r34,identifier,Which string methods remove a prefix or a suffix?,pep-0616#c7,0.5555555555555556,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r37,identifier,What syntax handles several unrelated exceptions raised together?,pep-0654#c37,0.15151515151515152,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r40,paraphrase,Which old and unmaintained standard library modules were scheduled for removal?,pep-0594#c0,0.3,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+fixed,dense,r43,fact,How long must a feature be deprecated before it can be removed?,pep-3108#c1,0.5,0.4,0.5,0.3973220069685352,1.0,1.0,0.5
+fixed,dense,r46,identifier,Which function returns directory entries with file attributes to speed up os.walk?,pep-0471#c0,0.18181818181818182,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed,dense,r49,identifier,Which built-in function drops into the debugger?,pep-0279#c6,0.0,0.0,0.1111111111111111,0.0,0.0,0.0,0.2
+fixed,dense,r52,paraphrase,"How can asynchronous code keep context-local state, similar to thread-local storage?",pep-0567#c0,0.18181818181818182,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed,dense,r55,identifier,What is the file format of a built Python distribution archive named .whl?,pep-0427#c0,0.4,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed,dense,r58,identifier,What marker file tells pip that a Python environment is managed by the operating system package manager?,pep-0668#c13,0.2,0.4,0.3333333333333333,0.30078518014914984,1.0,1.0,1.0
+fixed,dense,r61,identifier,Which keyword allows a nested function to rebind a variable of an enclosing function?,pep-3104#c6,0.0,0.0,0.09090909090909091,0.0,0.0,1.0,1.0
+fixed,dense,r64,identifier,How does Python attach the original exception when another is raised during handling?,pep-0249#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed,dense,r67,fact,How are objects made immortal so that their reference count never changes?,pep-0703#c19,0.03225806451612903,0.2,0.25,0.14606834984270645,1.0,1.0,0.5
+fixed,dense,r70,fact,Are comprehensions still executed as separate nested functions in Python 3.12?,pep-0227#c15,0.0,0.0,0.14285714285714285,0.0,0.0,1.0,0.3333333333333333
+fixed,dense,r73,fact,Which module should be used to generate secure random tokens for passwords?,pep-0506#c3,0.14285714285714285,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,dense,r76,fr,Comment rendre le GIL optionnel lors de la compilation de CPython ?,pep-0703#c15,0.38461538461538464,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,dense,r79,fr,Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?,pep-0289#c5,0.05405405405405406,0.4,0.5,0.34519134224686937,1.0,1.0,0.5
+fixed,hybrid,r01,fact,What maximum line length does the Python style guide recommend for code?,pep-0008#c0,0.5,0.2,0.5,0.38685280723454163,1.0,1.0,1.0
+fixed,hybrid,r04,paraphrase,"What new operator lets you bind a variable inside an expression, nicknamed the walrus?",pep-0572#c7,1.0,0.2,0.25,0.43067655807339306,1.0,1.0,1.0
+fixed,hybrid,r07,identifier,How can CPython be built without the global interpreter lock?,pep-0703#c14,0.23076923076923078,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed,hybrid,r10,identifier,Which methods must an object implement to be used as a context manager with the with statement?,pep-0343#c17,0.18181818181818182,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed,hybrid,r13,identifier,How do you declare the character encoding of a Python source file?,pep-0263#c0,0.6666666666666666,0.4,0.3333333333333333,0.4367467095119258,1.0,1.0,1.0
+fixed,hybrid,r16,fact,How can super() be called without passing the class and instance explicitly?,pep-3135#c1,1.0,0.4,1.0,1.0,1.0,1.0,1.0
+fixed,hybrid,r19,identifier,How do you enable postponed evaluation of annotations with a future import?,pep-0563#c3,0.5,0.4,1.0,0.6366824387328317,1.0,1.0,1.0
+fixed,hybrid,r22,identifier,How do you annotate a decorator that preserves the parameters of the wrapped callable?,pep-0612#c1,0.21052631578947367,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+fixed,hybrid,r25,identifier,Which decorator tells a type checker that a method is meant to override a base class method?,pep-0591#c2,0.23076923076923078,0.6,0.5,0.4912596920895758,1.0,1.0,0.5
+fixed,hybrid,r28,fact,How do you mark a name as not to be reassigned or overridden for type checkers?,pep-0702#c2,0.1111111111111111,0.2,0.2,0.13120507751234178,1.0,0.0,0.2
+fixed,hybrid,r31,fact,Which marker in a function signature makes the preceding parameters positional-only?,pep-0457#c4,0.038461538461538464,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+fixed,hybrid,r34,identifier,Which string methods remove a prefix or a suffix?,pep-0616#c0,0.5555555555555556,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,hybrid,r37,identifier,What syntax handles several unrelated exceptions raised together?,pep-0654#c44,0.12121212121212122,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+fixed,hybrid,r40,paraphrase,Which old and unmaintained standard library modules were scheduled for removal?,pep-0594#c3,0.3,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed,hybrid,r43,fact,How long must a feature be deprecated before it can be removed?,pep-3108#c1,0.5,0.4,0.5,0.4144299250118475,1.0,1.0,0.5
+fixed,hybrid,r46,identifier,Which function returns directory entries with file attributes to speed up os.walk?,pep-0471#c0,0.22727272727272727,1.0,1.0,1.0,1.0,1.0,1.0
+fixed,hybrid,r49,identifier,Which built-in function drops into the debugger?,pep-0553#c2,0.375,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed,hybrid,r52,paraphrase,"How can asynchronous code keep context-local state, similar to thread-local storage?",pep-0567#c0,0.18181818181818182,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed,hybrid,r55,identifier,What is the file format of a built Python distribution archive named .whl?,pep-0427#c0,0.4,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+fixed,hybrid,r58,identifier,What marker file tells pip that a Python environment is managed by the operating system package manager?,pep-0668#c11,0.3,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+fixed,hybrid,r61,identifier,Which keyword allows a nested function to rebind a variable of an enclosing function?,pep-0227#c17,0.0,0.0,0.05555555555555555,0.0,0.0,1.0,0.5
+fixed,hybrid,r64,identifier,How does Python attach the original exception when another is raised during handling?,pep-0479#c16,0.07142857142857142,0.2,0.2,0.13120507751234178,1.0,0.0,0.2
+fixed,hybrid,r67,fact,How are objects made immortal so that their reference count never changes?,pep-0703#c19,0.06451612903225806,0.4,0.25,0.27727342735504823,1.0,1.0,0.5
+fixed,hybrid,r70,fact,Are comprehensions still executed as separate nested functions in Python 3.12?,pep-0709#c0,0.125,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,hybrid,r73,fact,Which module should be used to generate secure random tokens for passwords?,pep-0506#c3,0.14285714285714285,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed,hybrid,r76,fr,Comment rendre le GIL optionnel lors de la compilation de CPython ?,pep-0684#c24,0.07692307692307693,0.2,0.25,0.14606834984270645,1.0,1.0,0.3333333333333333
+fixed,hybrid,r79,fr,Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?,pep-0814#c3,0.02702702702702703,0.2,0.25,0.14606834984270645,1.0,0.0,0.25
+fixed_header,bm25,r01,fact,What maximum line length does the Python style guide recommend for code?,pep-0008#c5,1.0,0.4,1.0,1.0,1.0,1.0,1.0
+fixed_header,bm25,r04,paraphrase,"What new operator lets you bind a variable inside an expression, nicknamed the walrus?",pep-0622#c29,0.0,0.0,0.14285714285714285,0.0,0.0,0.0,0.25
+fixed_header,bm25,r07,identifier,How can CPython be built without the global interpreter lock?,pep-0703#c14,0.3076923076923077,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed_header,bm25,r10,identifier,Which methods must an object implement to be used as a context manager with the with statement?,pep-0343#c17,0.13636363636363635,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed_header,bm25,r13,identifier,How do you declare the character encoding of a Python source file?,pep-0263#c0,0.3333333333333333,0.2,0.3333333333333333,0.23463936301137822,1.0,1.0,1.0
+fixed_header,bm25,r16,fact,How can super() be called without passing the class and instance explicitly?,pep-3135#c1,1.0,0.4,1.0,0.9197207891481876,1.0,1.0,1.0
+fixed_header,bm25,r19,identifier,How do you enable postponed evaluation of annotations with a future import?,pep-0563#c3,0.5,0.4,1.0,0.5855700749881525,1.0,1.0,1.0
+fixed_header,bm25,r22,identifier,How do you annotate a decorator that preserves the parameters of the wrapped callable?,pep-0612#c0,0.10526315789473684,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+fixed_header,bm25,r25,identifier,Which decorator tells a type checker that a method is meant to override a base class method?,pep-0591#c2,0.23076923076923078,0.6,0.5,0.5147714448836774,1.0,1.0,0.5
+fixed_header,bm25,r28,fact,How do you mark a name as not to be reassigned or overridden for type checkers?,pep-0705#c15,0.1111111111111111,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+fixed_header,bm25,r31,fact,Which marker in a function signature makes the preceding parameters positional-only?,pep-0570#c29,0.11538461538461539,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+fixed_header,bm25,r34,identifier,Which string methods remove a prefix or a suffix?,pep-0616#c1,0.5555555555555556,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,bm25,r37,identifier,What syntax handles several unrelated exceptions raised together?,pep-0654#c0,0.030303030303030304,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,bm25,r40,paraphrase,Which old and unmaintained standard library modules were scheduled for removal?,pep-0594#c3,0.2,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+fixed_header,bm25,r43,fact,How long must a feature be deprecated before it can be removed?,pep-0387#c7,0.25,0.2,0.3333333333333333,0.19519002499605084,1.0,1.0,1.0
+fixed_header,bm25,r46,identifier,Which function returns directory entries with file attributes to speed up os.walk?,pep-0471#c0,0.18181818181818182,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed_header,bm25,r49,identifier,Which built-in function drops into the debugger?,pep-0553#c1,0.5,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed_header,bm25,r52,paraphrase,"How can asynchronous code keep context-local state, similar to thread-local storage?",pep-0567#c0,0.18181818181818182,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed_header,bm25,r55,identifier,What is the file format of a built Python distribution archive named .whl?,pep-0427#c3,0.8,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed_header,bm25,r58,identifier,What marker file tells pip that a Python environment is managed by the operating system package manager?,pep-0668#c11,0.3,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed_header,bm25,r61,identifier,Which keyword allows a nested function to rebind a variable of an enclosing function?,pep-0227#c17,0.0,0.0,0.0,0.0,0.0,1.0,0.5
+fixed_header,bm25,r64,identifier,How does Python attach the original exception when another is raised during handling?,pep-0344#c3,0.14285714285714285,0.4,0.5,0.38356636737133565,1.0,1.0,0.5
+fixed_header,bm25,r67,fact,How are objects made immortal so that their reference count never changes?,pep-0703#c19,0.06451612903225806,0.4,0.3333333333333333,0.30078518014914984,1.0,1.0,0.5
+fixed_header,bm25,r70,fact,Are comprehensions still executed as separate nested functions in Python 3.12?,pep-0709#c0,0.25,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+fixed_header,bm25,r73,fact,Which module should be used to generate secure random tokens for passwords?,pep-0506#c2,0.14285714285714285,0.2,0.5,0.21398626473452756,1.0,1.0,1.0
+fixed_header,bm25,r76,fr,Comment rendre le GIL optionnel lors de la compilation de CPython ?,pep-0659#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed_header,bm25,r79,fr,Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?,pep-0526#c9,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed_header,dense,r01,fact,What maximum line length does the Python style guide recommend for code?,pep-0008#c5,1.0,0.4,1.0,0.9197207891481876,1.0,1.0,1.0
+fixed_header,dense,r04,paraphrase,"What new operator lets you bind a variable inside an expression, nicknamed the walrus?",pep-0572#c8,1.0,0.2,0.2,0.38685280723454163,1.0,1.0,1.0
+fixed_header,dense,r07,identifier,How can CPython be built without the global interpreter lock?,pep-0703#c0,0.38461538461538464,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r10,identifier,Which methods must an object implement to be used as a context manager with the with statement?,pep-0343#c18,0.18181818181818182,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed_header,dense,r13,identifier,How do you declare the character encoding of a Python source file?,pep-0263#c0,0.3333333333333333,0.2,0.3333333333333333,0.23463936301137822,1.0,1.0,1.0
+fixed_header,dense,r16,fact,How can super() be called without passing the class and instance explicitly?,pep-3135#c1,1.0,0.4,1.0,0.9197207891481876,1.0,1.0,1.0
+fixed_header,dense,r19,identifier,How do you enable postponed evaluation of annotations with a future import?,pep-0563#c16,0.75,0.6,1.0,0.8318724637288826,1.0,1.0,1.0
+fixed_header,dense,r22,identifier,How do you annotate a decorator that preserves the parameters of the wrapped callable?,pep-0612#c1,0.21052631578947367,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+fixed_header,dense,r25,identifier,Which decorator tells a type checker that a method is meant to override a base class method?,pep-0591#c2,0.23076923076923078,0.6,0.5,0.5296347172140421,1.0,1.0,0.5
+fixed_header,dense,r28,fact,How do you mark a name as not to be reassigned or overridden for type checkers?,pep-0729#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fixed_header,dense,r31,fact,Which marker in a function signature makes the preceding parameters positional-only?,pep-0457#c4,0.07692307692307693,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,0.3333333333333333
+fixed_header,dense,r34,identifier,Which string methods remove a prefix or a suffix?,pep-0616#c7,0.5555555555555556,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r37,identifier,What syntax handles several unrelated exceptions raised together?,pep-0654#c37,0.15151515151515152,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r40,paraphrase,Which old and unmaintained standard library modules were scheduled for removal?,pep-0594#c0,0.3,0.6,1.0,0.6164336326286644,1.0,1.0,1.0
+fixed_header,dense,r43,fact,How long must a feature be deprecated before it can be removed?,pep-0387#c6,0.25,0.2,1.0,0.3903800499921017,1.0,1.0,1.0
+fixed_header,dense,r46,identifier,Which function returns directory entries with file attributes to speed up os.walk?,pep-0471#c0,0.18181818181818182,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed_header,dense,r49,identifier,Which built-in function drops into the debugger?,pep-0553#c1,0.125,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,dense,r52,paraphrase,"How can asynchronous code keep context-local state, similar to thread-local storage?",pep-0567#c0,0.09090909090909091,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+fixed_header,dense,r55,identifier,What is the file format of a built Python distribution archive named .whl?,pep-0427#c0,0.4,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+fixed_header,dense,r58,identifier,What marker file tells pip that a Python environment is managed by the operating system package manager?,pep-0668#c0,0.3,0.6,0.3333333333333333,0.4468535299918563,1.0,1.0,1.0
+fixed_header,dense,r61,identifier,Which keyword allows a nested function to rebind a variable of an enclosing function?,pep-0227#c19,0.0,0.0,0.05263157894736842,0.0,0.0,1.0,0.5
+fixed_header,dense,r64,identifier,How does Python attach the original exception when another is raised during handling?,pep-0479#c16,0.0,0.0,0.05,0.0,0.0,0.0,0.1111111111111111
+fixed_header,dense,r67,fact,How are objects made immortal so that their reference count never changes?,pep-0683#c35,0.06451612903225806,0.4,0.5,0.34519134224686937,1.0,1.0,1.0
+fixed_header,dense,r70,fact,Are comprehensions still executed as separate nested functions in Python 3.12?,pep-0709#c0,0.625,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,dense,r73,fact,Which module should be used to generate secure random tokens for passwords?,pep-0506#c3,0.42857142857142855,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+fixed_header,dense,r76,fr,Comment rendre le GIL optionnel lors de la compilation de CPython ?,pep-0703#c69,0.23076923076923078,0.6,0.3333333333333333,0.4468535299918563,1.0,1.0,1.0
+fixed_header,dense,r79,fr,Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?,pep-0289#c5,0.02702702702702703,0.2,0.25,0.14606834984270645,1.0,1.0,0.3333333333333333
+fixed_header,hybrid,r01,fact,What maximum line length does the Python style guide recommend for code?,pep-0008#c5,1.0,0.4,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r04,paraphrase,"What new operator lets you bind a variable inside an expression, nicknamed the walrus?",pep-0572#c7,1.0,0.2,0.25,0.43067655807339306,1.0,1.0,1.0
+fixed_header,hybrid,r07,identifier,How can CPython be built without the global interpreter lock?,pep-0703#c0,0.3076923076923077,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed_header,hybrid,r10,identifier,Which methods must an object implement to be used as a context manager with the with statement?,pep-0343#c17,0.13636363636363635,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed_header,hybrid,r13,identifier,How do you declare the character encoding of a Python source file?,pep-0263#c0,0.6666666666666666,0.4,0.3333333333333333,0.41618115554873086,1.0,1.0,1.0
+fixed_header,hybrid,r16,fact,How can super() be called without passing the class and instance explicitly?,pep-3135#c1,1.0,0.4,1.0,0.9197207891481876,1.0,1.0,1.0
+fixed_header,hybrid,r19,identifier,How do you enable postponed evaluation of annotations with a future import?,pep-0563#c3,0.75,0.6,1.0,0.8318724637288826,1.0,1.0,1.0
+fixed_header,hybrid,r22,identifier,How do you annotate a decorator that preserves the parameters of the wrapped callable?,pep-0612#c1,0.21052631578947367,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+fixed_header,hybrid,r25,identifier,Which decorator tells a type checker that a method is meant to override a base class method?,pep-0591#c2,0.23076923076923078,0.6,0.5,0.5296347172140421,1.0,1.0,0.5
+fixed_header,hybrid,r28,fact,How do you mark a name as not to be reassigned or overridden for type checkers?,pep-0702#c2,0.1111111111111111,0.2,0.2,0.13120507751234178,1.0,0.0,0.2
+fixed_header,hybrid,r31,fact,Which marker in a function signature makes the preceding parameters positional-only?,pep-0457#c4,0.038461538461538464,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+fixed_header,hybrid,r34,identifier,Which string methods remove a prefix or a suffix?,pep-0616#c7,0.5555555555555556,1.0,1.0,1.0,1.0,1.0,1.0
+fixed_header,hybrid,r37,identifier,What syntax handles several unrelated exceptions raised together?,pep-0654#c0,0.09090909090909091,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed_header,hybrid,r40,paraphrase,Which old and unmaintained standard library modules were scheduled for removal?,pep-0594#c3,0.3,0.6,1.0,0.6843515475204855,1.0,1.0,1.0
+fixed_header,hybrid,r43,fact,How long must a feature be deprecated before it can be removed?,pep-0387#c6,0.5,0.4,1.0,0.5855700749881525,1.0,1.0,1.0
+fixed_header,hybrid,r46,identifier,Which function returns directory entries with file attributes to speed up os.walk?,pep-0471#c0,0.18181818181818182,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+fixed_header,hybrid,r49,identifier,Which built-in function drops into the debugger?,pep-0553#c1,0.5,0.8,1.0,0.8687949224876582,1.0,1.0,1.0
+fixed_header,hybrid,r52,paraphrase,"How can asynchronous code keep context-local state, similar to thread-local storage?",pep-0567#c0,0.13636363636363635,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+fixed_header,hybrid,r55,identifier,What is the file format of a built Python distribution archive named .whl?,pep-0427#c0,0.6,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+fixed_header,hybrid,r58,identifier,What marker file tells pip that a Python environment is managed by the operating system package manager?,pep-0668#c11,0.2,0.4,1.0,0.5087403079104241,1.0,1.0,1.0
+fixed_header,hybrid,r61,identifier,Which keyword allows a nested function to rebind a variable of an enclosing function?,pep-0227#c17,0.0,0.0,0.0,0.0,0.0,1.0,0.5
+fixed_header,hybrid,r64,identifier,How does Python attach the original exception when another is raised during handling?,pep-0479#c16,0.07142857142857142,0.2,0.25,0.14606834984270645,1.0,0.0,0.25
+fixed_header,hybrid,r67,fact,How are objects made immortal so that their reference count never changes?,pep-0703#c19,0.06451612903225806,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,0.5
+fixed_header,hybrid,r70,fact,Are comprehensions still executed as separate nested functions in Python 3.12?,pep-0709#c0,0.25,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+fixed_header,hybrid,r73,fact,Which module should be used to generate secure random tokens for passwords?,pep-0506#c3,0.14285714285714285,0.2,1.0,0.3391602052736161,1.0,1.0,1.0
+fixed_header,hybrid,r76,fr,Comment rendre le GIL optionnel lors de la compilation de CPython ?,pep-0684#c24,0.0,0.0,0.125,0.0,0.0,1.0,0.3333333333333333
+fixed_header,hybrid,r79,fr,Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?,pep-0526#c9,0.0,0.0,0.125,0.0,0.0,0.0,0.14285714285714285
+section,bm25,r01,fact,What maximum line length does the Python style guide recommend for code?,pep-0008#c6,1.0,0.4,1.0,1.0,1.0,1.0,1.0
+section,bm25,r04,paraphrase,"What new operator lets you bind a variable inside an expression, nicknamed the walrus?",pep-0622#c27,1.0,0.2,0.2,0.38685280723454163,1.0,1.0,0.5
+section,bm25,r07,identifier,How can CPython be built without the global interpreter lock?,pep-0703#c17,0.16666666666666666,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+section,bm25,r10,identifier,Which methods must an object implement to be used as a context manager with the with statement?,pep-0343#c16,0.14285714285714285,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+section,bm25,r13,identifier,How do you declare the character encoding of a Python source file?,pep-0263#c0,0.0,0.0,0.16666666666666666,0.0,0.0,1.0,1.0
+section,bm25,r16,fact,How can super() be called without passing the class and instance explicitly?,pep-3135#c1,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+section,bm25,r19,identifier,How do you enable postponed evaluation of annotations with a future import?,pep-0563#c19,1.0,0.6,1.0,1.0,1.0,1.0,1.0
+section,bm25,r22,identifier,How do you annotate a decorator that preserves the parameters of the wrapped callable?,pep-0612#c2,0.10526315789473684,0.4,0.25,0.27727342735504823,1.0,1.0,1.0
+section,bm25,r25,identifier,Which decorator tells a type checker that a method is meant to override a base class method?,pep-0591#c3,0.23076923076923078,0.6,0.5,0.4912596920895758,1.0,1.0,0.5
+section,bm25,r28,fact,How do you mark a name as not to be reassigned or overridden for type checkers?,pep-0591#c0,0.25,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+section,bm25,r31,fact,Which marker in a function signature makes the preceding parameters positional-only?,pep-0570#c33,0.09090909090909091,0.4,1.0,0.4703652827859579,1.0,1.0,1.0
+section,bm25,r34,identifier,Which string methods remove a prefix or a suffix?,pep-0616#c2,0.625,1.0,1.0,1.0,1.0,1.0,1.0
+section,bm25,r37,identifier,What syntax handles several unrelated exceptions raised together?,pep-0654#c0,0.058823529411764705,0.4,1.0,0.48522855511632257,1.0,1.0,1.0
+section,bm25,r40,paraphrase,Which old and unmaintained standard library modules were scheduled for removal?,pep-0594#c3,0.2222222222222222,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+section,bm25,r43,fact,How long must a feature be deprecated before it can be removed?,pep-0602#c4,0.5,0.2,0.3333333333333333,0.3065735963827292,1.0,1.0,0.3333333333333333
+section,bm25,r46,identifier,Which function returns directory entries with file attributes to speed up os.walk?,pep-0471#c0,0.2,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+section,bm25,r49,identifier,Which built-in function drops into the debugger?,pep-0553#c2,0.5,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+section,bm25,r52,paraphrase,"How can asynchronous code keep context-local state, similar to thread-local storage?",pep-0567#c0,0.18181818181818182,0.8,1.0,0.8539316501572937,1.0,1.0,1.0
+section,bm25,r55,identifier,What is the file format of a built Python distribution archive named .whl?,pep-0427#c0,0.6666666666666666,0.4,1.0,0.7653606369886217,1.0,1.0,1.0
+section,bm25,r58,identifier,What marker file tells pip that a Python environment is managed by the operating system package manager?,pep-0668#c11,0.3,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+section,bm25,r61,identifier,Which keyword allows a nested function to rebind a variable of an enclosing function?,pep-0227#c18,0.0,0.0,0.14285714285714285,0.0,0.0,1.0,0.5
+section,bm25,r64,identifier,How does Python attach the original exception when another is raised during handling?,pep-0344#c2,0.07692307692307693,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.5
+section,bm25,r67,fact,How are objects made immortal so that their reference count never changes?,pep-0703#c22,0.058823529411764705,0.4,0.5,0.38356636737133565,1.0,1.0,0.5
+section,bm25,r70,fact,Are comprehensions still executed as separate nested functions in Python 3.12?,pep-0709#c0,0.375,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+section,bm25,r73,fact,Which module should be used to generate secure random tokens for passwords?,pep-0506#c2,0.2,0.2,0.5,0.21398626473452756,1.0,1.0,1.0
+section,bm25,r76,fr,Comment rendre le GIL optionnel lors de la compilation de CPython ?,pep-0545#c7,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+section,bm25,r79,fr,Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?,pep-0526#c11,0.0,0.0,0.07142857142857142,0.0,0.0,0.0,0.09090909090909091
+section,dense,r01,fact,What maximum line length does the Python style guide recommend for code?,pep-0007#c0,0.5,0.2,0.25,0.2640681225725909,1.0,1.0,0.5
+section,dense,r04,paraphrase,"What new operator lets you bind a variable inside an expression, nicknamed the walrus?",pep-0211#c6,0.0,0.0,0.0,0.0,0.0,1.0,0.5
+section,dense,r07,identifier,How can CPython be built without the global interpreter lock?,pep-0703#c1,0.25,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+section,dense,r10,identifier,Which methods must an object implement to be used as a context manager with the with statement?,pep-0343#c17,0.19047619047619047,0.8,0.5,0.6608397947263839,1.0,1.0,1.0
+section,dense,r13,identifier,How do you declare the character encoding of a Python source file?,pep-0263#c4,0.5,0.2,0.25,0.2640681225725909,1.0,1.0,1.0
+section,dense,r16,fact,How can super() be called without passing the class and instance explicitly?,pep-3135#c1,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+section,dense,r19,identifier,How do you enable postponed evaluation of annotations with a future import?,pep-0563#c18,1.0,0.6,1.0,0.9674679834891693,1.0,1.0,1.0
+section,dense,r22,identifier,How do you annotate a decorator that preserves the parameters of the wrapped callable?,pep-0612#c3,0.15789473684210525,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+section,dense,r25,identifier,Which decorator tells a type checker that a method is meant to override a base class method?,pep-0591#c3,0.23076923076923078,0.6,0.3333333333333333,0.4468535299918563,1.0,1.0,0.3333333333333333
+section,dense,r28,fact,How do you mark a name as not to be reassigned or overridden for type checkers?,pep-0729#c3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+section,dense,r31,fact,Which marker in a function signature makes the preceding parameters positional-only?,pep-0570#c23,0.13636363636363635,0.6,1.0,0.6164336326286644,1.0,1.0,1.0
+section,dense,r34,identifier,Which string methods remove a prefix or a suffix?,pep-0616#c9,0.625,1.0,1.0,1.0,1.0,1.0,1.0
+section,dense,r37,identifier,What syntax handles several unrelated exceptions raised together?,pep-0348#c1,0.058823529411764705,0.4,0.5,0.38356636737133565,1.0,1.0,0.5
+section,dense,r40,paraphrase,Which old and unmaintained standard library modules were scheduled for removal?,pep-3100#c8,0.1111111111111111,0.2,0.5,0.21398626473452756,1.0,1.0,0.5
+section,dense,r43,fact,How long must a feature be deprecated before it can be removed?,pep-0702#c11,0.5,0.2,0.3333333333333333,0.3065735963827292,1.0,1.0,0.5
+section,dense,r46,identifier,Which function returns directory entries with file attributes to speed up os.walk?,pep-0471#c0,0.2,0.8,1.0,0.830419897363192,1.0,1.0,1.0
+section,dense,r49,identifier,Which built-in function drops into the debugger?,pep-3116#c16,0.0,0.0,0.125,0.0,0.0,1.0,0.3333333333333333
+section,dense,r52,paraphrase,"How can asynchronous code keep context-local state, similar to thread-local storage?",pep-0567#c0,0.09090909090909091,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+section,dense,r55,identifier,What is the file format of a built Python distribution archive named .whl?,pep-0427#c0,0.3333333333333333,0.2,1.0,0.46927872602275644,1.0,1.0,1.0
+section,dense,r58,identifier,What marker file tells pip that a Python environment is managed by the operating system package manager?,pep-0668#c46,0.2,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,1.0
+section,dense,r61,identifier,Which keyword allows a nested function to rebind a variable of an enclosing function?,pep-0227#c20,0.0,0.0,0.05555555555555555,0.0,0.0,1.0,0.5
+section,dense,r64,identifier,How does Python attach the original exception when another is raised during handling?,pep-0479#c17,0.0,0.0,0.05,0.0,0.0,0.0,0.1
+section,dense,r67,fact,How are objects made immortal so that their reference count never changes?,pep-0683#c39,0.058823529411764705,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,1.0
+section,dense,r70,fact,Are comprehensions still executed as separate nested functions in Python 3.12?,pep-0709#c0,0.375,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+section,dense,r73,fact,Which module should be used to generate secure random tokens for passwords?,pep-0506#c0,0.6,0.6,0.5,0.4912596920895758,1.0,1.0,1.0
+section,dense,r76,fr,Comment rendre le GIL optionnel lors de la compilation de CPython ?,pep-0703#c74,0.08333333333333333,0.2,0.25,0.14606834984270645,1.0,1.0,1.0
+section,dense,r79,fr,Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?,pep-0526#c11,0.02857142857142857,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.3333333333333333
+section,hybrid,r01,fact,What maximum line length does the Python style guide recommend for code?,pep-0008#c6,1.0,0.4,1.0,0.9197207891481876,1.0,1.0,1.0
+section,hybrid,r04,paraphrase,"What new operator lets you bind a variable inside an expression, nicknamed the walrus?",pep-0572#c7,0.0,0.0,0.09090909090909091,0.0,0.0,1.0,1.0
+section,hybrid,r07,identifier,How can CPython be built without the global interpreter lock?,pep-0703#c17,0.16666666666666666,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+section,hybrid,r10,identifier,Which methods must an object implement to be used as a context manager with the with statement?,pep-0343#c16,0.14285714285714285,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+section,hybrid,r13,identifier,How do you declare the character encoding of a Python source file?,pep-0263#c0,0.5,0.2,0.25,0.2640681225725909,1.0,1.0,1.0
+section,hybrid,r16,fact,How can super() be called without passing the class and instance explicitly?,pep-3135#c1,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+section,hybrid,r19,identifier,How do you enable postponed evaluation of annotations with a future import?,pep-0563#c19,1.0,0.6,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r22,identifier,How do you annotate a decorator that preserves the parameters of the wrapped callable?,pep-0612#c2,0.15789473684210525,0.6,0.5,0.5296347172140421,1.0,1.0,1.0
+section,hybrid,r25,identifier,Which decorator tells a type checker that a method is meant to override a base class method?,pep-0591#c3,0.23076923076923078,0.6,0.3333333333333333,0.4468535299918563,1.0,1.0,0.3333333333333333
+section,hybrid,r28,fact,How do you mark a name as not to be reassigned or overridden for type checkers?,pep-0702#c2,0.125,0.2,0.2,0.13120507751234178,1.0,0.0,0.25
+section,hybrid,r31,fact,Which marker in a function signature makes the preceding parameters positional-only?,pep-0457#c5,0.09090909090909091,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,0.5
+section,hybrid,r34,identifier,Which string methods remove a prefix or a suffix?,pep-0616#c9,0.625,1.0,1.0,1.0,1.0,1.0,1.0
+section,hybrid,r37,identifier,What syntax handles several unrelated exceptions raised together?,pep-0654#c0,0.11764705882352941,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+section,hybrid,r40,paraphrase,Which old and unmaintained standard library modules were scheduled for removal?,pep-0594#c3,0.3333333333333333,0.6,1.0,0.7227265726449519,1.0,1.0,1.0
+section,hybrid,r43,fact,How long must a feature be deprecated before it can be removed?,pep-0387#c6,0.5,0.2,1.0,0.6131471927654584,1.0,1.0,1.0
+section,hybrid,r46,identifier,Which function returns directory entries with file attributes to speed up os.walk?,pep-0471#c0,0.2,0.8,1.0,0.7860137352654724,1.0,1.0,1.0
+section,hybrid,r49,identifier,Which built-in function drops into the debugger?,pep-0553#c2,0.3333333333333333,0.4,1.0,0.5531464700081437,1.0,1.0,1.0
+section,hybrid,r52,paraphrase,"How can asynchronous code keep context-local state, similar to thread-local storage?",pep-0567#c0,0.13636363636363635,0.6,1.0,0.6992148198508501,1.0,1.0,1.0
+section,hybrid,r55,identifier,What is the file format of a built Python distribution archive named .whl?,pep-0427#c0,0.6666666666666666,0.4,1.0,0.7653606369886217,1.0,1.0,1.0
+section,hybrid,r58,identifier,What marker file tells pip that a Python environment is managed by the operating system package manager?,pep-0668#c11,0.3,0.6,1.0,0.639945385422766,1.0,1.0,1.0
+section,hybrid,r61,identifier,Which keyword allows a nested function to rebind a variable of an enclosing function?,pep-0227#c18,0.0,0.0,0.1111111111111111,0.0,0.0,1.0,0.5
+section,hybrid,r64,identifier,How does Python attach the original exception when another is raised during handling?,pep-0479#c17,0.07692307692307693,0.2,0.3333333333333333,0.16958010263680806,1.0,1.0,0.3333333333333333
+section,hybrid,r67,fact,How are objects made immortal so that their reference count never changes?,pep-0703#c22,0.058823529411764705,0.4,0.5,0.38356636737133565,1.0,1.0,0.5
+section,hybrid,r70,fact,Are comprehensions still executed as separate nested functions in Python 3.12?,pep-0709#c0,0.375,0.6,1.0,0.6548086577531307,1.0,1.0,1.0
+section,hybrid,r73,fact,Which module should be used to generate secure random tokens for passwords?,pep-0506#c2,0.4,0.4,0.3333333333333333,0.3156484524795145,1.0,1.0,1.0
+section,hybrid,r76,fr,Comment rendre le GIL optionnel lors de la compilation de CPython ?,pep-0684#c17,0.0,0.0,0.125,0.0,0.0,1.0,0.3333333333333333
+section,hybrid,r79,fr,Quel opérateur permet d'affecter une variable à l'intérieur d'une expression ?,pep-0526#c11,0.0,0.0,0.16666666666666666,0.0,0.0,0.0,0.16666666666666666
