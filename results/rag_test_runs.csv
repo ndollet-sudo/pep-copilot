@@ -1,0 +1,40 @@
+qid,type,answer,success,source_ok,faithfulness,tokens,cost_usd,latency_s
+a01,rag+meta,"The operator introduced by PEP 572 is the ""walrus operator"" (formally called ""Assignment Expressions"") with the notation `NAME := expr` [1]. This feature shipped in Python version 3.8 [5].",True,True,0.75,5172,0.000914,3.752
+a02,meta,I could not find this in the PEP knowledge base.,False,False,,5092,0.000885,2.965
+a03,meta-trap,"The status of PEP 622 is ""Superseded"" [1], and it was replaced by PEP 634 [1].",True,True,0.5,5176,0.000906,3.095
+a04,count,I could not find this in the PEP knowledge base.,False,,,5569,0.000956,3.273
+a05,count,I could not find this in the PEP knowledge base.,False,,,4987,0.000869,2.593
+a06,multi-step,I could not find this in the PEP knowledge base.,False,False,,4934,0.00086,3.47
+a07,rag+meta,The except* syntax was introduced by PEP 654 [1].,False,True,1.0,5168,0.000898,3.075
+a08,rag,The release manager of Python 3.12 is Thomas Wouters [1].,True,True,1.0,7079,0.001186,2.68
+a09,rag+meta,I could not find this in the PEP knowledge base.,False,False,,5268,0.000911,3.716
+a10,rag,"The default value of zip's strict argument is False [4]. When strict=True and lengths differ, a ValueError is raised [4].",True,True,1.0,5320,0.000926,2.653
+a11,rag,"The configure option to build CPython without the GIL is **--disable-gil**, and it was proposed in **PEP 703** [1][4].",True,True,1.0,5380,0.00094,2.64
+a12,multi-step,"The two limits are 7 characters apart.
+
+Code lines: 79 characters [2]
+Docstrings/comments: 72 characters [2]
+
+79 - 72 = 7",True,True,0.0,5305,0.000929,2.76
+a13,count+calc,I could not find this in the PEP knowledge base.,False,,,6516,0.001098,2.967
+a14,count,I could not find this in the PEP knowledge base.,False,,,4942,0.000863,2.85
+a15,unanswerable,I could not find this in the PEP knowledge base.,True,,,5134,0.000891,2.541
+a16,unanswerable,I could not find this in the PEP knowledge base.,True,,,5121,0.000889,2.724
+a17,multi-hop,The two PEPs that both proposed structural pattern matching are PEP 622 and PEP 634. PEP 634 is the final specification [1][3].,True,True,0.6666666666666666,5157,0.000907,4.25
+a18,multi-step,I could not find this in the PEP knowledge base.,False,False,,5291,0.000914,3.498
+a19,rag,"The annual release cycle of Python is a 12-month cycle, and it is defined by **PEP 602**.
+
+[1] states: ""This PEP proposes that Python 3.X.0 will be developed for around 17 months [...] This change accelerates the release cadence such that feature versions are released predictably every twelve months, in October every year.""",True,True,1.0,5491,0.000975,3.087
+a20,rag+meta,The decorator added by PEP 557 is `@dataclass` [2][3]. The PEP does not explicitly state who authored it.,False,True,0.5,5229,0.000914,2.858
+a21,fr,"Les f-strings ont été introduites par la PEP 498, intitulée ""Literal String Interpolation"" [1]. Cette PEP a été acceptée et fait partie de Python à partir de la version 3.6 [1].",True,True,0.5,5338,0.00094,3.613
+a22,fr,I could not find this in the PEP knowledge base.,False,False,,4974,0.000867,3.804
+a23,fr+calc,I could not find this in the PEP knowledge base.,False,,,5474,0.000943,2.741
+a24,rag+meta,"Yes, you can write `int | str` instead of `Union[int, str]`. This is allowed by **PEP 604** [1][3].
+
+According to PEP 604, the new union syntax (`X | Y`) is equivalent to `typing.Union[X, Y]` [1][2]. The PEP was accepted as a Final proposal, meaning it is officially part of Python's typing system.
+
+However, the passages provided do not specify the exact Python version in which this feature was introduced. For the version information, you would need to consult the official Python documentation or release notes alongside PEP 604. Based on the passages, I could not find the version number.
+
+So, in summary:
+- **PEP 604** allows writing `int | str` instead of `Union[int, str]`.
+- The exact Python version is not specified in the provided passages.",False,True,0.6666666666666666,5877,0.001085,4.297
